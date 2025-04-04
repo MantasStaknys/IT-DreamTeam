@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+}
+
+.svgdecor {
+    position: absolute;
+}
+
+.svg1 {
+    align-self: flex-end;
+    transform: translateY(500px);
+}
+
+.svg2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+h1 {
+    font-family: "Livvic", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.b1 {
+    font-family: "Livvic", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.header-logo {
+    width: 160px;
+    height: 40px;
+}
+
+.home-link,
+.about-link {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-btn {
+    margin-left: auto;
+    width: 153px;
+    height: 48px;
+    background-color: #014E56;
+    color: white;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    transition: ease-in-out 0.2s;
+}
+
+header {
+    display: flex;
+    background-color: #014E56;
+    height: 700px;
+    flex-direction: column;
+    color: white;
+}
+
+nav {
+    display: flex;
+    max-width: 1410px;
+    width: 1310px;
+    max-height: 50px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*section after nav*/
+.header-section {
+    display: flex;
+    margin: 100px auto;
+    width: 1410px;
+    height: 200px;
+    align-items: center;
+}
+
+.left-header {
+    width: 610px;
+    margin-left: 100px;
+}
+
+.right-header1 {
+    width: 720px;
+    height: 130px;
+}
+
+main {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    background-color: #004047;
+    height: 1100px;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: "Livvic", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin: auto 120px;
+    width: 920px;
+    text-align: center;
+    color: white;
+}
+/*for h2 ^^^^^^^^^^^^^ */
+.h2container {
+    width: 920px;
+    height: 48px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+.h2container1 {
+    width: 920px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    padding-top: 140px;
+}
+/*start of styles for directors table */
+/* 1 row for 3 boxes */
+.linecontainer {
+    display: flex;
+    width: 1340px;
+    height: 253px;
+    align-self: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+/* box for 1 line^^^^^ */
+.maincontainer {
+    display: inline-block;
+    position: relative;
+    background: #012F34;
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+}
+
+/* box for 2nd line */
+.maincontainer2 {
+    display: inline-block;
+    position: relative;
+    background: #012F34;
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+}
+
+.maincontainer2:last-child {
+    padding-top: 15px;
+    display: inline-block;
+    position: relative;
+    background: #002529;
+    width: 350px;
+    height: 238px;
+    flex-shrink: 0;
+}
+
+/* end for 2nd line */
+.img1 {
+    display: flex;
+    width: 108px;
+    height: 108px;
+    border-radius: 108px;
+    border: 2px solid #C4FFFE;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.name {
+    color: #79C8C7;
+    text-align: center;
+    font-family: "Livvic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.description {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* if pres on plus icon */
+.descriptionOPENED {
+    width: 230px;
+    margin: auto;
+}
+
+.icon {
+    width: 80px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-xl {
+    color: white;
+    margin-right: 13px;
+}
+
+.fa-xl:last-child {
+    color: #F67E7E;
+}
+
+.plusSVG {
+    transform: translateX(147px);
+    margin-top: 16px;
+}
+
+/*end of styles for directors table */
+
+
+
+/* star of sponsor article */
+.sponsorArticle {
+    height: 437px;
+    flex-shrink: 0;
+    background: #012F34;
+}
+
+/* end of sponsor article */
