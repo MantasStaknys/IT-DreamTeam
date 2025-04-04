@@ -1,0 +1,111 @@
+[33mcommit 294c0d97625cf55105da158a2fdecbf056fc0599[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Fri Apr 4 01:15:43 2025 +0300
+
+    worked on main page index and css
+
+[33mcommit bacbdcd86e9458c8d42fa5d385b8d6ca9525482a[m
+Author: Liutauras Rusk <liutauras.ruskys@stud.techin.lt>
+Date:   Mon Mar 31 14:17:19 2025 +0300
+
+    main structure addition slight change
+
+[33mcommit 8778e947da548c05dc942613ba53a3289b8aefe2[m
+Author: Liutauras Rusk <liutauras.ruskys@stud.techin.lt>
+Date:   Mon Mar 31 14:15:05 2025 +0300
+
+    Main structure parts added
+
+[33mcommit 4e23c89dcc4824d793a11f700cad2ea600bd4566[m
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 14:07:10 2025 +0300
+
+    Main Structure
+
+[33mcommit aaec7686024d9566d5eae23839e89d4ff1aa176b[m
+Merge: 81413e4 a64bca6
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 13:34:17 2025 +0300
+
+    Merge branch 'main' of https://github.com/MantasStaknys/IT-DreamTeam
+
+[33mcommit a64bca6504873c4baeaaeba12220ba866a33c3d5[m
+Author: Evanas Daujotas <evanas.daujotas@stud.techin.lt>
+Date:   Mon Mar 31 14:33:55 2025 +0400
+
+    asdasdsa
+
+[33mcommit 81413e428da6e5cf6809ee6599c11672144cc936[m
+Merge: a98b210 aa391be
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 13:16:18 2025 +0300
+
+    Merge branch 'main' of https://github.com/MantasStaknys/IT-DreamTeam
+
+[33mcommit a98b2105215290a6c79d0b5f24ea243fb5a43e27[m
+Merge: beb4506 f5bb268
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 13:16:14 2025 +0300
+
+    index fix
+
+[33mcommit aa391be419d8fcd0c2ad957d7ae8a3fced1c52b9[m
+Author: Evanas Daujotas <evanas.daujotas@stud.techin.lt>
+Date:   Mon Mar 31 14:11:53 2025 +0400
+
+    dasda
+
+[33mcommit f5bb26872a430aa8584522470a7890fefda69b87[m
+Author: Evanas Daujotas <evanas.daujotas@stud.techin.lt>
+Date:   Mon Mar 31 14:07:53 2025 +0400
+
+    dqwdq
+
+[33mcommit beb4506e0596f7f49c410acc5fa354490a9f234d[m
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 13:06:57 2025 +0300
+
+    tralala
+
+[33mcommit 5c62f42bc2401f05a3cfa26dabc98627ca3e479d[m
+Author: Evanas Daujotas <evanas.daujotas@stud.techin.lt>
+Date:   Mon Mar 31 13:59:59 2025 +0400
+
+    siski
+
+[33mcommit 0bd15ea2432689a6f1f0bd17304b2b6c25f470b0[m
+Merge: f0b5d21 91f41a0
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 12:57:25 2025 +0300
+
+    index conflict resolved
+
+[33mcommit f0b5d2168442e3b423ddb1be0580dd592de27156[m
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 12:51:12 2025 +0300
+
+    index.html greeting
+
+[33mcommit 91f41a0717c4bec0632f52a6e681a74bf9589a30[m
+Author: Liutauras Rusk <liutauras.ruskys@stud.techin.lt>
+Date:   Mon Mar 31 12:48:28 2025 +0300
+
+    added hello to body
+
+[33mcommit 65fd962e826f877212b12a9459cc4f979c0ed01a[m
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 12:44:55 2025 +0300
+
+    created index.html
+
+[33mcommit 36304e3fad3330ac506859a0948a05378ef03017[m
+Author: Mantas Staknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 12:27:33 2025 +0300
+
+    modified readme.md
+
+[33mcommit 0559ce954f2fe19d124035d3627466c30bbbd813[m
+Author: MantasStaknys <mantas.staknys@stud.techin.lt>
+Date:   Mon Mar 31 12:12:41 2025 +0300
+
+    Initial commit
