@@ -131,3 +131,79 @@ main {
     height: 684px;  
     justify-content: space-between;
 }
+
+/* Footer Style */
+footer {
+    display: flex;
+    flex-direction:column;
+    height:396px
+}
+/* footer section styles */
+.footer-top {
+    position:relative;
+    background-color:#F67E7E;
+    height:200px;
+}
+.footer-bottom {
+    background-color:#002529;
+    display:grid;
+    height:196px;
+    z-index:2;
+    padding-left:165px;
+    grid-template-columns: 365px 545px 500px;
+    padding-top:48px
+}
+
+.inline {
+    display:inline;
+}
+
+.svg-position {
+    position:absolute;
+    left:0;
+    bottom:-5px
+}
+.div-position {
+    margin-left:261.5px;
+    margin-top:76px;
+}
+/* footer button*/
+.altcontact-button {
+    background-color:#F67E7E;
+    color:#012F34;
+    border:2px solid #012F34;
+    border-radius:24px;
+    height:48px;
+    width:153px;
+    text-align:center;
+    transition:ease-in-out 0.2s;
+    margin-left:600px
+}
+.altcontact-button:hover {
+    color:white;
+    background-color:#012F34;
+    cursor:pointer;
+}
+/* footer grid style */ /*im gonna be honest i don't know what im doing*/
+.color1 {
+    color:white;
+}
+.link {
+    text-decoration:none;
+    color:white;
+    transition:ease-in-out 0.2s;
+}
+.marge {
+    margin-top:80px;
+    margin-right:50px;
+}
+.link:hover {
+    color:#F67E7E;
+    cursor:pointer;
+}
+.link:active {
+    color:#F67E7E
+}
+.link:visited {
+    color:white;
+}
