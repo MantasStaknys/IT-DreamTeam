@@ -45,11 +45,15 @@ body {
         font-weight: 600;
         line-height: 25px;
     }
-
+    /* icon size style */
+    .icon-size {
+        font-size:25px;
+    }
 /* header style */
 
     header {
         display: flex;
+        position: relative;
         background-color: #014E56;
         height: 700px;
         flex-direction: column;
@@ -121,16 +125,52 @@ body {
         align-self: flex-end;
     }
 
+    .header-top-space {
+        width: 50px;
+        height: 4px;
+        margin-bottom: 60px;
+        background-color: #79C8C7;
+    }
+
+    .svg-section {
+        position: relative;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .svg-group1 {
+        position: absolute;
+        left: 0px;
+        top: 250px;
+    }
+
+    .svg-group2 {
+        position: absolute;
+        bottom: -4px;
+        right: 65px;
+    }
+
 
 /* main style */
 
-main {
+.article1 {
     display: flex;
+    position: relative;
     z-index: 2;
     background-color: #012F34;
     height: 684px;  
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
+
+.article1-container {
+    display: flex;
+    height: 404px;
+    width: 1110px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /* Footer Style */
 footer {
@@ -194,8 +234,10 @@ footer {
     transition:ease-in-out 0.2s;
 }
 .marge {
-    margin-top:80px;
     margin-right:50px;
+}
+.marge2 {
+    margin-right:20px
 }
 .link:hover {
     color:#F67E7E;
@@ -206,4 +248,48 @@ footer {
 }
 .link:visited {
     color:white;
+}
+.right {
+    text-align:right;
+}
+
+.article1-section1 {
+    width: 445px;
+    align-self: flex-start;
+    color: white;
+} 
+
+.article1-section2 {
+    width: 540px;
+    color: white;
+    align-self: flex-end;
+}
+
+.main-article-top-space {
+    width: 50px;
+    height: 4px;
+    margin-bottom: 60px;
+    background-color: #F67E7E;
+}
+
+.article1-infocard-header {
+    margin-bottom: 16px;
+}
+
+.card-icon {
+    float: left;
+    margin-right: 26px;
+}
+
+.article1-svg-group3 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* article 2 style */
+
+.article2 {
+    height: 745px;
+    background-color: #004047;
 }
