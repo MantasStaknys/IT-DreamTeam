@@ -72,6 +72,9 @@ body {
 
 /* header style */
 
+
+    /* nav copyable */
+
     header {
         display: flex;
         position: relative;
@@ -132,6 +135,8 @@ body {
         color: #F67E7E;
     }
 
+    /* nav copyable/ */
+
     /* header section styling */
 
     .header-section {
@@ -160,6 +165,8 @@ body {
         background-color: #79C8C7;
     }
 
+    /* header svg's */
+
     .svg-section {
         position: relative;
         width: 100vw;
@@ -174,7 +181,7 @@ body {
 
     .svg-group2 {
         position: absolute;
-        bottom: -4px;
+        bottom: -5px;
         right: 65px;
     }
 
@@ -199,6 +206,9 @@ body {
     align-items: center;
 }
 
+.opaque {
+    opacity: 0.8;
+}
 
 /* Footer Style */
 footer {
