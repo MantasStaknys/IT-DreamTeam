@@ -49,6 +49,27 @@ body {
     .icon-size {
         font-size:25px;
     }
+    /* link styles */
+    .link {
+        text-decoration:none;
+        color:white;
+        transition:ease-in-out 0.2s;
+    }
+    .marge {
+        margin-right:50px;
+    }
+    .marge2 {
+        margin-right:20px
+    }
+    .link:hover {
+        color:#F67E7E;
+        cursor:pointer;
+    }
+    .link:active {
+        color:#F67E7E
+    }   
+
+
 /* header style */
 
     header {
@@ -193,15 +214,17 @@ footer {
     height:200px;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap:wrap
 }
 .footer-bottom {
     background-color:#002529;
-    display:grid;
+    display:flex;
     height:196px;
-    padding-left:165px;
-    grid-template-columns: 365px 545px 500px;
-    padding-top:48px
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
 }
+
 
 .inline {
     display:inline;
@@ -220,6 +243,32 @@ footer {
     row-gap: 10px;
     z-index: 2;
 }
+.godown {
+    margin-bottom:33px;
+}
+
+/* footer media quaries (or sizes) */
+/* Tablet Sizes */
+@media (max-width: 768px) {
+    .footer-div-left{
+        width:50%
+    }
+    .footer-div-middle {
+        width:50%
+    }
+    .footer-div-right {
+        width:100%;
+    }
+    .godown {
+        margin-bottom:0;
+    }
+    .md-inline {
+        display:inline;
+        /* align-self: */
+    }
+}
+
+
 /* footer button*/
 .altcontact-button {
     background-color:#F67E7E;
@@ -244,26 +293,6 @@ footer {
 .color2 {
     color:#79C8C7
 }
-/* footer link styles */
-.link {
-    text-decoration:none;
-    color:white;
-    transition:ease-in-out 0.2s;
-}
-.marge {
-    margin-right:50px;
-}
-.marge2 {
-    margin-right:20px
-}
-.link:hover {
-    color:#F67E7E;
-    cursor:pointer;
-}
-.link:active {
-    color:#F67E7E
-}
-
 
 .right {
     text-align:right;
@@ -357,4 +386,76 @@ footer {
     height:62px;
     width:62px;
     display:block;
+}
+/* media queries */
+
+
+@media (max-width: 1440px) {
+    /* this applies from 1440px to 768px */
+
+
+    /* font styles */
+
+    h1 {
+        font-family: "Livvic", sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+    }
+
+    /* header */
+
+    nav {
+        width: 850px;
+    }
+
+    .svg-group1 {
+        display: none;
+    }
+
+    .svg-group2 {
+        right: 31vw;
+    }
+
+    .header-section {
+        height: 200px;
+        width: 683px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .header-top-space {
+        display: none;
+    }
+    .left-header {
+        height: 110px;
+        margin: 0;
+    }
+    .left-header h1 {
+        margin: 0 auto;
+        text-align: center;
+        width: 375px;
+    }
+    .right-header {
+        height: 110px;
+        width: 457px;
+        margin: 0;
+        align-self: center;
+        text-align: center;
+    }
+
+    .b1-special {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}
+@media (max-width: 768px) {
+    /* this applies from 768px to 327px */
+
+
 }
