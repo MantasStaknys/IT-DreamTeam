@@ -114,6 +114,19 @@ body {
         transition: ease-in-out 0.2s;
     }
 
+    .contact-mobile-btn {
+        border: none;
+        background-color: #014E56;
+        color: white;
+        transition: ease-in-out 0.2s;
+        display: none;
+    }
+
+    .contact-mobile-btn:hover {
+        color: #F67E7E;
+        cursor: pointer;
+    }
+
     .contact-btn:hover {
         background-color: white;
         color: #014E56;
@@ -259,25 +272,6 @@ footer {
 
 /* footer media quaries (or sizes) */
 /* Tablet Sizes */
-@media (max-width: 768px) {
-    .footer-div-left{
-        width:50%
-    }
-    .footer-div-middle {
-        width:50%
-    }
-    .footer-div-right {
-        width:100%;
-    }
-    .godown {
-        margin-bottom:0;
-    }
-    .md-inline {
-        display:inline;
-        /* align-self: */
-    }
-}
-
 
 /* footer button*/
 .altcontact-button {
@@ -460,12 +454,91 @@ footer {
 
     .b1-special {
         font-size: 15px;
-        line-height: 25px;
+        line-height: 28px;
     }
 
 }
 @media (max-width: 768px) {
     /* this applies from 768px to 327px */
 
+
+    /* font styles */
+
+    h1 {
+        font-family: "Livvic", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+
+    .header-section {
+        height: 200px;
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-top-space {
+        display: none;
+    }
+    .left-header {
+        height: 110px;
+        margin: 0 ;
+    }
+    .left-header h1 {
+        margin: 0 auto;
+        text-align: center;
+        width: 230px;
+    }
+    .right-header {
+        height: 200px;
+        width: 327px;
+        margin: 0;
+        align-self: center;
+        text-align: center;
+    }
+
+    .b1-special {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .home-link, .about-link, .contact-btn {
+        display: none;
+    }
+
+    nav {
+        width: 400px;
+    }
+
+    .svg-group2 {
+        right: 8vw;
+    }
+
+    .contact-mobile-btn {
+        display: inline-block;
+        margin-left: auto;
+    }
+
+    .footer-div-left{
+        width:50%
+    }
+    .footer-div-middle {
+        width:50%
+    }
+    .footer-div-right {
+        width:100%;
+    }
+    .godown {
+        margin-bottom:0;
+    }
+    .md-inline {
+        display:inline;
+        /* align-self: */
+    }
 
 }
