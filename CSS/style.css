@@ -472,6 +472,41 @@ footer {
         line-height: 40px;
     }
 
+    /* main */
+    .article1-container, .article1{
+        display: block;
+        align-items: center;
+    }
+    .article1-section1{
+        width: 240px;
+        font-size: 32px;
+    }
+    h2{
+        font-size: 32px;
+    }
+
+    .article1-container {
+        width: 400px;
+    }
+    .article1-section2{
+
+    }
+    .info-card1,.info-card2,.info-card3{
+
+    }
+
+    .article1-svg-group3{
+        top: 0px;
+    }
+
+
+
+    .card-icon{
+        display: flex;
+        float: none;
+        justify-content: center;
+        margin: 0%;
+    }
 
     .header-section {
         height: 200px;
@@ -540,5 +575,9 @@ footer {
         display:inline;
         /* align-self: */
     }
+
+}
+@media (min-width: 1441px)
+{
 
 }
