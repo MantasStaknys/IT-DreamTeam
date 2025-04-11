@@ -461,6 +461,7 @@ footer {
         font-size: 15px;
         line-height: 28px;
     }
+    /* footer */
     .footer-div-left{
         width:50%;
     }
@@ -599,7 +600,7 @@ footer {
         display: inline-block;
         margin-left: auto;
     }
-
+    /* footer */
     .inline {
         display:block;
     }
