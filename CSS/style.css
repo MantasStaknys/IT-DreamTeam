@@ -587,9 +587,9 @@ footer {
 
     .card-icon {
         display: flex;
-        float: none;
+        float: left;
         justify-content: center;
-        margin: 0%;
+        margin-right: 15px;
     }
 
     .div-svg {
@@ -603,7 +603,7 @@ footer {
     }
 
     .article1 {
-        height: 1100px;
+        height: 870px;
     }
 }
 
@@ -626,6 +626,12 @@ footer {
     .article1 {
         display: block;
         align-items: center;
+    }
+    .main-article1-header {
+        width: 240px;
+        height: 100px;
+        font-size: 32px;
+        margin-bottom: 160px;
     }
 
     .article1-section1 {
@@ -669,8 +675,6 @@ footer {
     }
 
     /* article2 */
-    main {}
-
     .article2 {
         height: 1600px;
     }
@@ -728,6 +732,10 @@ footer {
         margin: 0 auto;
         text-align: center;
         width: 230px;
+    }
+
+    .left-header {
+        width: 400px;
     }
 
     .right-header {
