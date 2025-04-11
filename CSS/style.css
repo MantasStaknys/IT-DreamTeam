@@ -206,7 +206,8 @@ body {
     position: relative;
     z-index: 2;
     background-color: #012F34;
-    height: 684px;  
+    height: 684px;
+    width:100vw;
     justify-content: center;
     align-items: center;
 }
@@ -227,7 +228,8 @@ body {
 footer {
     display: flex;
     flex-direction:column;
-    height:396px
+    height:396px;
+    width:100vw;
 }
 /* footer section styles */
 .footer-top {
@@ -247,7 +249,10 @@ footer {
     align-items:center;
     flex-wrap:wrap;
 }
-
+.footer-logo {
+    width:160px;
+    height:40px;
+}
 
 .inline {
     display:inline;
@@ -344,6 +349,7 @@ footer {
     background-color: #004047;
     position:relative;
     z-index: 2;
+    width:100vw;
     justify-content:center;
     align-items:center;
 }
@@ -411,7 +417,7 @@ footer {
     /* header */
 
     nav {
-        width: 850px;
+        width: 750px;
     }
 
     .svg-group1 {
@@ -455,6 +461,39 @@ footer {
     .b1-special {
         font-size: 15px;
         line-height: 28px;
+    }
+    .footer-div-left{
+        width:50%;
+    }
+    .footer-div-middle {
+        width:50%;
+        text-align:right;
+    }
+    .footer-div-right {
+        width:100%;
+    }
+    .godown {
+        margin-bottom:0;
+    }
+    .md-inline {
+        display:inline;
+        /* align-self: */
+    }
+    .right {
+        text-align:left;
+    }
+    .footer-bottom {
+        padding: 0 30px 0 30px
+    }
+    .altcontact-button {
+        margin-left:200px;
+    }
+    .footer-bottom {
+        height:271px
+    }
+    .footer-logo {
+        width:120px;
+        height:30px;
     }
 
 }
@@ -523,22 +562,34 @@ footer {
         display: inline-block;
         margin-left: auto;
     }
-
+    .altcontact-button {
+        margin-left:175px;
+    }
+    .inline {
+        display:block;
+    }
     .footer-div-left{
-        width:50%
+        width:100%;
+        text-align:center;
     }
     .footer-div-middle {
-        width:50%
+        width:100%;
+        text-align:center;
+        font-size:smaller
     }
     .footer-div-right {
         width:100%;
-    }
-    .godown {
-        margin-bottom:0;
-    }
-    .md-inline {
-        display:inline;
-        /* align-self: */
+        text-align:center;
     }
 
+    .md-inline {
+        display:block;
+    }
+    .footer-top {
+        height:302px;
+    }
+    .footer-bottom {
+        height:432px;
+        padding: 20px 0 0 0
+    }
 }
