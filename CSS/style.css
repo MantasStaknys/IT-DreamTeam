@@ -525,21 +525,49 @@ footer {
     }
 
     .article1-container {
-        width: 400px;
+        width: 100vw;
+    }
+    .article1-section1{
+        padding-left: 15px;
+        padding-top: 25px;
     }
     .article1-section2{
-
+        width: 240px;
+        font-size: 14px;
+        margin: 0 auto;
     }
-    .info-card1,.info-card2,.info-card3{
-
+    .article1{
+        height: 1150px;
     }
-
+    .article1-infocard-header{
+        text-align: center;
+    }
+    .opaque{
+        text-align: center;
+    }
     .article1-svg-group3{
         top: 0px;
     }
 
+    /* article2 */
+    main{
+    }
+    .article2{
+        height: 1500px;
+    }
 
-
+    .article2-div {
+        align-self: flex-start;
+        padding-top: 90px;
+        width: 250px;
+    }
+    .horror-div{
+        grid-template: 
+        "card1"
+        "card2"
+        "card3"
+        ;
+    }
     .card-icon{
         display: flex;
         float: none;
