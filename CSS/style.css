@@ -228,7 +228,6 @@ body {
 footer {
     display: flex;
     flex-direction:column;
-    height:396px;
     width:100vw;
 }
 /* footer section styles */
@@ -237,7 +236,7 @@ footer {
     position:relative;
     background-color:#F67E7E;
     height:200px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap:wrap
 }
@@ -486,7 +485,7 @@ footer {
         padding: 0 30px 0 30px
     }
     .altcontact-button {
-        margin-left:200px;
+        margin-left:50px;
     }
     .footer-bottom {
         height:271px
@@ -494,6 +493,9 @@ footer {
     .footer-logo {
         width:120px;
         height:30px;
+    }
+    .div-position {
+        width:760px;
     }
 
 }
@@ -597,9 +599,7 @@ footer {
         display: inline-block;
         margin-left: auto;
     }
-    .altcontact-button {
-        margin-left:175px;
-    }
+
     .inline {
         display:block;
     }
@@ -626,6 +626,13 @@ footer {
     .footer-bottom {
         height:432px;
         padding: 20px 0 0 0
+    }
+    .div-position {
+        width:50%;
+        text-align:center;
+    }
+    .altcontact-button {
+        margin-left:0;
     }
 }
 
