@@ -68,7 +68,126 @@ h3 {
 .link:active {
     color:#F67E7E
 }   
+/* svg positions */
+.svg {
+    position:absolute;
+}
+.position1 {
+    left:0;
+    bottom:20rem;
+}
+.position2 {
+    right:0;
+    bottom:0;
+}
+.marge3 {
+    margin-right:10px;
+}
+/* svg  end*/
 
+
+/* header style */
+
+/* nav copyable */
+
+header {
+    display: flex;
+    position: relative;
+    flex-shrink: 1;
+    background-color: #014E56;
+    height: 789px;
+    width: 100vw;
+    flex-direction: column;
+    color: white;
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    max-width: 1410px;
+    width: 1310px;
+    max-height: 50px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-logo {
+    width: 160px;
+    height: 40px;
+}
+
+.contact-btn {
+    margin-left: auto;
+    width: 153px;
+    height: 48px;
+    background-color: #014E56;
+    color: white;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    transition: ease-in-out 0.2s;
+}
+
+.contact-mobile-btn {
+    border: none;
+    background-color: #014E56;
+    color: white;
+    transition: ease-in-out 0.2s;
+    display: none;
+}
+
+.contact-mobile-btn:hover {
+    color: #F67E7E;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: #014E56;
+    cursor: pointer;
+}
+
+.home-link,
+.about-link {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+}
+
+.home-link:hover,
+.about-link:hover {
+    color: #F67E7E;
+}
+
+.red-highlight {
+    color: #F67E7E;
+}
+
+/* nav copyable/ */
+
+/* header section style*/
+.section {
+    margin:auto;
+}
+
+.floatleft {
+    float:left;
+}
+.header-section-div {
+    height:312px;
+    width:540px;
+}
+.letters {
+    color:#F67E7E;
+    font-size:32px;
+}
+.about-bits {
+    height:72px;
+}
 /* footer styles */
 footer {
     display: flex;
@@ -83,6 +202,7 @@ footer {
     justify-content:space-evenly;
     align-items:center;
     flex-wrap:wrap;
+    z-index:2;
 }
 .footer-logo {
     width:160px;
@@ -135,8 +255,9 @@ footer {
 
 .right {
     text-align:right;
-}
+}/* Main */
 /* media quaries */
+
 @media (max-width:1440px) {
     /* footer */
     .footer-div-left{
