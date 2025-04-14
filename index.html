@@ -10,18 +10,26 @@
 
     <!-- linking css -->
     <link rel="stylesheet" href="CSS/style.css">
+    <!-- linking js -->
+     <script src="JS/script.js" defer></script>
     <!-- fontawesome Icons -->
     <script src="https://kit.fontawesome.com/a1ff1632b7.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <div id="brg-menu" class="mobile-menu">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <a class="b1 mobile-link mobile-home-btn" href="index.html">home</a>
+        <a class="b1 mobile-link" href="subPages/about.html">about</a>
+        <button class="b1 mobile-contact-btn">contact us</button>
+    </div>
+    <header id="header">
         <nav>
             <img class="header-logo" src="IMG/myteam 2.svg" alt="">
             <a class="b1 home-link link" href="index.html">home</a>
             <a class="b1 about-link link" href="subPages/about.html">about</a>
             <button class="b1 contact-btn">contact us</button>
-            <button class="b1 contact-mobile-btn"><i class="fa-solid fa-bars fa-2x"></i></button>
+            <button id="mobile-btn" class="b1 contact-mobile-btn"><i id="mob" class="fa-solid fa-bars fa-2x"></i></button>
         </nav>
         <section class="header-section">
             <div class="left-header">
@@ -39,7 +47,7 @@
             <img src="IMG/Group2.svg" alt="">
         </div>
     </header>
-    <main>
+    <main id="main">
         <article class="article1">
             <div class="article1-container">
                 <section class="article1-section1">
@@ -119,7 +127,7 @@
         </article>
     </main>
     <!-- remember to not explode it -->
-    <footer>
+    <footer id="footer">
         <section class="footer-top">
                 <div class="div-position">
                     <div>
