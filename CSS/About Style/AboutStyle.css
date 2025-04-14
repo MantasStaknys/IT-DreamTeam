@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .svgdecor {
@@ -32,7 +33,13 @@ h1 {
     font-weight: 600;
     line-height: 28px;
 }
-
+.b2 {
+    font-family: "Livvic", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
 .header-logo {
     width: 160px;
     height: 40px;
@@ -55,6 +62,15 @@ h1 {
     border: 2px solid #FFF;
     transition: ease-in-out 0.2s;
 }
+.contact-btn:hover {
+    background-color:white;
+    color:#002529;
+    cursor:pointer;
+}
+.contact-btn:active {
+    background-color:#014E56;
+    color:white;
+}
 
 header {
     display: flex;
@@ -62,6 +78,7 @@ header {
     height: 700px;
     flex-direction: column;
     color: white;
+    width: 100vw;
 }
 
 nav {
@@ -75,6 +92,35 @@ nav {
     align-items: center;
     justify-content: flex-start;
 }
+
+/* link stylings */
+.link {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+.marge {
+    margin-right: 50px;
+}
+
+.marge2 {
+    margin-right: 20px
+}
+
+.link:hover {
+    color: #F67E7E;
+    cursor: pointer;
+}
+
+.link:active {
+    color: #F67E7E
+}
+/* icon size style */
+.icon-size {
+    font-size: 25px;
+}
+/* link styling end */
 
 /*section after nav*/
 .header-section {
@@ -102,6 +148,7 @@ main {
     background-color: #004047;
     height: 1100px;
     flex-direction: column;
+    width: 100vw;
 }
 
 h2 {
@@ -234,6 +281,7 @@ h2 {
     height: 437px;
     flex-shrink: 0;
     background: #012F34;
+    width: 100vw;
 }
 
 /* end of sponsor article */
@@ -241,3 +289,132 @@ h2 {
     height: 108px;
     width: 108px;
 }
+.banners{
+    display: flex;
+    width: 1110px;
+    height: 45px;
+    flex-shrink: 0;
+    margin: auto;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.banner{
+    height: 28px;
+    filter: brightness(0) invert(1);
+}
+
+
+
+.banner_1-div{
+    width: 165px;
+}
+
+.banner_2-div{
+    width: 184px;
+}
+
+.banner_3-div{
+    width: 180px;
+}
+
+.banner_4-div{
+    width: 165px;
+}
+
+.banner_5-div{
+    width: 98px;
+}
+
+/* end of sponsor article */
+
+
+/* footer style start */
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+/* footer section styles */
+.footer-top {
+    display: flex;
+    position: relative;
+    background-color: #F67E7E;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.footer-bottom {
+    background-color: #002529;
+    display: flex;
+    height: 196px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index:2;
+}
+
+.footer-logo {
+    width: 160px;
+    height: 40px;
+}
+
+.inline {
+    display: inline;
+}
+
+.svg-position {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    z-index: 1;
+}
+
+.div-position {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+    z-index: 2;
+}
+
+.godown {
+    margin-bottom: 33px;
+}
+/* footer button */
+.altcontact-button {
+    background-color: #F67E7E;
+    color: #012F34;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    height: 48px;
+    width: 153px;
+    text-align: center;
+    transition: ease-in-out 0.2s;
+    margin-left: 600px
+}
+
+.altcontact-button:hover {
+    color: white;
+    background-color: #012F34;
+    cursor: pointer;
+}
+
+/* color */
+.color1 {
+    color: white;
+}
+
+.color2 {
+    color: #79C8C7
+}
+
+.right {
+    text-align: right;
+}
+
+/* footer style end */
