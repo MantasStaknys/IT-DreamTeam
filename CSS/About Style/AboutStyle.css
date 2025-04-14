@@ -246,4 +246,42 @@ h2 {
     background: #012F34;
 }
 
+.banners{
+    display: flex;
+    width: 1110px;
+    height: 45px;
+    flex-shrink: 0;
+    margin: auto;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.banner{
+    height: 28px;
+    filter: brightness(0) invert(1);
+}
+
+
+
+.banner_1-div{
+    width: 165px;
+}
+
+.banner_2-div{
+    width: 184px;
+}
+
+.banner_3-div{
+    width: 180px;
+}
+
+.banner_4-div{
+    width: 165px;
+}
+
+.banner_5-div{
+    width: 98px;
+}
+
 /* end of sponsor article */
