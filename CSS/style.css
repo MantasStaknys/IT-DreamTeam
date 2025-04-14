@@ -275,7 +275,7 @@ footer {
 .svg-position {
     position: absolute;
     left: 0;
-    bottom: -5px;
+    bottom: -4px;
     z-index: 1;
 }
 
@@ -383,11 +383,11 @@ footer {
 .article2-svg2 {
     position: absolute;
     right: 0;
-    bottom: -5px;
+    bottom: -4px;
 }
 
 .article2-div {
-    width: 1110px;
+    width: 1290px;
     height: 465px;
     text-align: center;
 }
@@ -408,7 +408,7 @@ footer {
     top: -15px;
     opacity: 0.7;
     z-index: -1;
-    left: 160px
+    left: 173px;
 }
 
 /* inner grid text */
@@ -418,7 +418,7 @@ footer {
 
 /* Circular images */
 .circle {
-    margin: auto;
+    margin: 32px auto;
     border: 2px solid #C4FFFE;
     border-radius: 50%;
     height: 62px;
