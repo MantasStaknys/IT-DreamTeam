@@ -194,8 +194,7 @@ h2 {
     grid-template-areas: 
     "m_1 m_2 m_3"
     "m_4 m_5 m_6";
-    margin-top: 50px;
-    row-gap: 30px;
+    margin-top: 30px;
     column-gap: 28px;
 }
 
