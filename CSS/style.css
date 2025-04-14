@@ -159,6 +159,72 @@ nav {
     color: #F67E7E;
 }
 
+.mobile-menu {
+    width: 255px;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    background-color: #014E56;
+    transition: 0.2s ease-in-out;
+    right: -255px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.fa-xmark {
+    align-self: flex-end;
+    margin-right: 25px;
+    margin-top: 56px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-xmark:hover {
+    color: #F67E7E;
+    cursor: pointer;
+}
+
+.mobile-home-btn {
+    margin-top: 39px;
+    margin-left: 48px;
+    margin-bottom: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-link {
+    margin-bottom: 36px;
+    margin-left: 48px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.mobile-link:hover {
+    color: #F67E7E;
+    cursor: pointer;
+}
+
+.mobile-contact-btn {
+    margin-left: 48px;
+    width: 153px;
+    height: 48px;
+    background-color: #014E56;
+    color: white;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    transition: ease-in-out 0.2s;
+}
+
+.mobile-contact-btn:hover {
+    background-color: white;
+    color: #014E56;
+    cursor: pointer;
+}
+
 /* nav copyable/ */
 
 /* header section styling */
