@@ -188,6 +188,28 @@ nav {
 .about-bits {
     height:72px;
 }
+/* header section end */
+
+/* form style */
+.text {
+    font-family: "Livvic", sans-serif;
+    font-size:15px;
+    line-height:25px;
+    letter-spacing:-0.12px;
+    color:white;
+}
+.line {
+    border-bottom:1px solid white;
+}
+input {
+    border:none;
+    width:100vw;
+    background:none
+}
+.form {
+    width:540px;
+    height:420px;
+}
 /* footer styles */
 footer {
     display: flex;
@@ -199,6 +221,7 @@ footer {
     background-color:#002529;
     display:flex;
     height:196px;
+    width:100vw;
     justify-content:space-evenly;
     align-items:center;
     flex-wrap:wrap;
@@ -296,6 +319,13 @@ footer {
     .div-position {
         width:760px;
     }
+    /* footer end */
+
+    /* header section contents */
+    .floatleft {
+        float:none;
+    }
+    /* header section end */
 }
 @media (max-width:768px) {
     .inline {
@@ -332,4 +362,11 @@ footer {
     .altcontact-button {
         margin-left:0;
     }
+    /* footer end */
+
+    /* header section */
+    .position1 {
+        left:-100px;
+    }
+    /* header section end */
 }
