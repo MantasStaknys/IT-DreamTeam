@@ -69,7 +69,7 @@ for(let i = 0; i < circle.length; i++){
 
             // animation
 
-            maincontainer_all[i].
+            // maincontainer_all[i].
         }
         else{
             krestik[i].style.transform = 'rotate(0deg)';
@@ -87,7 +87,7 @@ for(let i = 0; i < circle.length; i++){
 
             // animation
 
-            maincontainer_all[i].
+            // maincontainer_all[i].
         }
         else{
             krestik[i].style.transform = 'rotate(0deg)';
