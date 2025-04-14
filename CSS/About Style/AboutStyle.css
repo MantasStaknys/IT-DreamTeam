@@ -184,12 +184,40 @@ h2 {
 /*start of styles for directors table */
 /* 1 row for 3 boxes */
 .linecontainer {
-    display: flex;
+    display: grid;
     width: 1100px;
     height: 253px;
     align-self: center;
-    justify-content: space-between;
+    grid-template-areas: 
+    "m_1 m_2 m_3"
+    "m_4 m_5 m_6";
     margin-top: 50px;
+    row-gap: 30px;
+    column-gap: 28px;
+}
+
+.m_1{
+    grid-area: "m_1";
+}
+
+.m_2{
+    grid-area: "m_2";
+}
+
+.m_3{
+    grid-area: "m_3";
+}
+
+.m_4{
+    grid-area: "m_4";
+}
+
+.m_5{
+    grid-area: "m_5";
+}
+
+.m_6{
+    grid-area: "m_6";
 }
 
 /* box for 1 line^^^^^ */
