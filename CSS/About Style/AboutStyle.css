@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .svgdecor {
@@ -77,6 +78,7 @@ header {
     height: 700px;
     flex-direction: column;
     color: white;
+    width: 100vw;
 }
 
 nav {
@@ -146,6 +148,7 @@ main {
     background-color: #004047;
     height: 1100px;
     flex-direction: column;
+    width: 100vw;
 }
 
 h2 {
@@ -182,11 +185,11 @@ h2 {
 /* 1 row for 3 boxes */
 .linecontainer {
     display: flex;
-    width: 1340px;
+    width: 1100px;
     height: 253px;
     align-self: center;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* box for 1 line^^^^^ */
@@ -206,16 +209,6 @@ h2 {
     background: #012F34;
     width: 350px;
     height: 253px;
-    flex-shrink: 0;
-}
-
-.maincontainer2:last-child {
-    padding-top: 15px;
-    display: inline-block;
-    position: relative;
-    background: #002529;
-    width: 350px;
-    height: 238px;
     flex-shrink: 0;
 }
 
@@ -288,6 +281,7 @@ h2 {
     height: 437px;
     flex-shrink: 0;
     background: #012F34;
+    width: 100vw;
 }
 .grid {
     display:flex;
@@ -296,6 +290,50 @@ h2 {
 }
 
 /* end of sponsor article */
+.img1-1{
+    height: 108px;
+    width: 108px;
+}
+.banners{
+    display: flex;
+    width: 1110px;
+    height: 45px;
+    flex-shrink: 0;
+    margin: auto;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.banner{
+    height: 28px;
+    filter: brightness(0) invert(1);
+}
+
+
+
+.banner_1-div{
+    width: 165px;
+}
+
+.banner_2-div{
+    width: 184px;
+}
+
+.banner_3-div{
+    width: 180px;
+}
+
+.banner_4-div{
+    width: 165px;
+}
+
+.banner_5-div{
+    width: 98px;
+}
+
+/* end of sponsor article */
+
 
 /* footer style start */
 footer {
