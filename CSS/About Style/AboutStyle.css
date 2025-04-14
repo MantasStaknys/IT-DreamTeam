@@ -138,11 +138,11 @@ h2 {
 /* 1 row for 3 boxes */
 .linecontainer {
     display: flex;
-    width: 1340px;
+    width: 1100px;
     height: 253px;
     align-self: center;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* box for 1 line^^^^^ */
@@ -162,16 +162,6 @@ h2 {
     background: #012F34;
     width: 350px;
     height: 253px;
-    flex-shrink: 0;
-}
-
-.maincontainer2:last-child {
-    padding-top: 15px;
-    display: inline-block;
-    position: relative;
-    background: #002529;
-    width: 350px;
-    height: 238px;
     flex-shrink: 0;
 }
 
@@ -247,3 +237,7 @@ h2 {
 }
 
 /* end of sponsor article */
+.img1-1{
+    height: 108px;
+    width: 108px;
+}
