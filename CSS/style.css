@@ -260,6 +260,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    z-index:2;
 }
 
 .footer-logo {
@@ -604,6 +605,9 @@ footer {
 
     .article1 {
         height: 870px;
+    }
+    .svg-position {
+        bottom:-25px
     }
 }
 
