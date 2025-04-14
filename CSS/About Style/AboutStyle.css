@@ -328,7 +328,7 @@ h2 {
     flex-shrink: 0;
     margin: auto;
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 60px;
 }
 
