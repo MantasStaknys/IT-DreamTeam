@@ -2,6 +2,7 @@
 
 let krestik = document.getElementsByClassName('circle_div_another');
 let circle = document.getElementsByClassName('circle_div');
+let maincontainer_all = document.getElementsByClassName("maincontainer_all");
 
 let clickd = [true, true, true, true, true, true]
 
@@ -65,6 +66,10 @@ for(let i = 0; i < circle.length; i++){
             krestik[i].style.transform = 'rotate(45deg)';
             circle[i].style.fill = '#F67E7E';
             clickd[i] = false;  
+
+            // animation
+
+            // maincontainer_all[i].
         }
         else{
             krestik[i].style.transform = 'rotate(0deg)';
@@ -79,6 +84,10 @@ for(let i = 0; i < circle.length; i++){
             krestik[i].style.transform = 'rotate(45deg)';
             circle[i].style.fill = '#F67E7E';
             clickd[i] = false;  
+
+            // animation
+
+            // maincontainer_all[i].
         }
         else{
             krestik[i].style.transform = 'rotate(0deg)';
