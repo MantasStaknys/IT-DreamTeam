@@ -289,6 +289,11 @@ h2 {
     flex-shrink: 0;
     background: #012F34;
 }
+.grid {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
 /* end of sponsor article */
 
