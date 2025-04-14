@@ -191,8 +191,7 @@ h2 {
     grid-template-areas: 
     "m_1 m_2 m_3"
     "m_4 m_5 m_6";
-    margin-top: 50px;
-    row-gap: 30px;
+    margin-top: 30px;
     column-gap: 28px;
 }
 
@@ -310,6 +309,11 @@ h2 {
     flex-shrink: 0;
     background: #012F34;
     width: 100vw;
+}
+.grid {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 /* end of sponsor article */
