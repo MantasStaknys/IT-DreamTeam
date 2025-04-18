@@ -184,6 +184,7 @@ nav {
     width:540px;
 }
 .letters {
+    margin-top: 10px;
     color:#F67E7E;
     font-size:32px;
 }
@@ -193,6 +194,10 @@ nav {
 /* header section end */
 
 /* form style */
+h1{
+    font-size: 64px;
+    margin-bottom: 0px;
+}
 .text {
     font-family: "Livvic", sans-serif;
     font-size:15px;
@@ -209,6 +214,7 @@ input {
     background:none
 }
 .form {
+    margin-top: 120px;
     width:540px;
     height:420px;
 }
@@ -374,4 +380,7 @@ footer {
         left:-100px;
     }
     /* header section end */
+}
+br{
+    
 }
