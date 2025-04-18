@@ -540,7 +540,41 @@ footer {
     .div-position {
         width: 760px;
     }
+    .svg-position {
+        bottom:-25px
+    }
     /* footer end */
+    .h2-md {
+        line-height:32px;
+        font-size:32px;
+    }
+    /* banner part of sponsor article */
+    .banners {
+        width:689px
+    }
+    .banner_1{
+        width: 103px;
+        height:17px;
+    }
+    
+    .banner_2{
+        width: 114px;
+        height:14px
+    }
+    
+    .banner_3{
+        width: 112px;
+        height:17px;
+    }
+    
+    .banner_4{
+        width: 103px;
+        height:17px
+    }
+    
+    .banner_5{
+        width: 61px;
+    }
 }
 
 
@@ -608,7 +642,6 @@ footer {
     
     .banner_2-div{
         display: inline;
-        width: 225px;
     }
     
     .banner_3-div{
@@ -621,8 +654,33 @@ footer {
     
     .banner_5-div{
         display: inline;
-        width: 65px;
     }
+
+    .banner_1{
+        width: 146.56px;
+        height:24.19px;
+    }
+    
+    .banner_2{
+        width: 162.21px;
+        height:19.92px
+    }
+    
+    .banner_3{
+        width: 159.37px;
+        height:24.19px;
+    }
+    
+    .banner_4{
+        width: 146.56px;
+        height:24.19px;
+    }
+    
+    .banner_5{
+        width:86.8px;
+        height:39.84px;
+    }
+
     /* footer start */
     .inline {
         display: block;
