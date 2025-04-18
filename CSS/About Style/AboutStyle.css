@@ -534,6 +534,27 @@ h2 {
 .banner_5-div{
     width: 98px;
 }
+.banner_1{
+    width: 165px;
+}
+
+.banner_2{
+    width: 184px;
+    height:23px
+}
+
+.banner_3{
+    width: 180px;
+}
+
+.banner_4{
+    width: 165px;
+}
+
+.banner_5{
+    width: 98px;
+    height:45px;
+}
 
 /* end of sponsor article */
 
@@ -704,6 +725,8 @@ footer {
 
     .footer-div-right {
         width: 100%;
+        display:flex;
+        justify-content:space-between
     }
 
     .godown {
@@ -773,7 +796,12 @@ footer {
     
     .banner_5{
         width: 61px;
+        height:28px;
     }
+    .banners {
+        margin-top:40px
+    }
+
 }
 
 
@@ -906,6 +934,7 @@ footer {
         margin: 0 auto;
         align-items: center;
         gap: 50px;
+        margin-top:30px
     }
     .banner_1-div{
         display: inline;
@@ -972,6 +1001,7 @@ footer {
     .footer-div-right {
         width: 100%;
         text-align: center;
+        display:block
     }
 
     .md-inline {
