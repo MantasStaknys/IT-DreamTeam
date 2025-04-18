@@ -321,7 +321,7 @@ h2 {
 /* 1 row for 3 boxes */
 .linecontainer {
     display: grid;
-    min-width: 1100px;
+    max-width: 1100px;
     height: 253px;
     align-self: center;
     grid-template-areas: 
