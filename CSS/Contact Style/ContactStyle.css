@@ -171,7 +171,9 @@ nav {
 
 /* header section style*/
 .section {
+    display: flex;
     margin:auto;
+    justify-content: space-between;
 }
 
 .floatleft {
