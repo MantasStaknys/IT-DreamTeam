@@ -499,6 +499,8 @@ footer {
 
     .footer-div-right {
         width: 100%;
+        display:flex;
+        justify-content:space-between
     }
 
     .godown {
@@ -699,6 +701,7 @@ footer {
     .footer-div-right {
         width: 100%;
         text-align: center;
+        display:block
     }
 
     .md-inline {
