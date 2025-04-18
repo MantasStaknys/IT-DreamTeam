@@ -13,36 +13,38 @@
 </head>
 
 <body>
-    <header>
-        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="200" viewBox="0 0 100 200" fill="none"
-            class="svg1 svgdecor">
-            <rect x="100" y="100" width="100" height="100" transform="rotate(180 100 100)" fill="#2C6269" />
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M100 200C155.228 200 200 155.228 200 100C200 44.7715 155.228 0 100 0C44.7715 0 0 44.7715 0 100C0 155.228 44.7715 200 100 200ZM100 133C118.225 133 133 118.225 133 100C133 81.7746 118.225 67 100 67C81.7746 67 67 81.7746 67 100C67 118.225 81.7746 133 100 133Z"
-                fill="#F67E7E" />
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M100 0H0V4H100V0ZM100 8H0V12H100V8ZM0 16H100V20H0V16ZM100 24H0V28H100V24ZM0 32H100V36H0V32ZM100 40H0V44H100V40Z"
-                fill="#79C8C7" />
-        </svg>
+    <div id="brg-menu" class="mobile-menu">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <a class="b1 mobile-link mobile-home-btn" href="../index.html">home</a>
+        <a class="b1 mobile-link" href="about.html">about</a>
+        <button class="b1 mobile-contact-btn">contact us</button>
+    </div>
+    <header id="header">
         <nav>
             <img class="header-logo" src="../IMG/myteam 2.svg" alt="">
             <a class="b1 home-link link" href="../index.html">home</a>
-            <a class="b1 about-link link" href="#">about</a>
+            <a class="b1 about-link link" href="about.html">about</a>
             <button class="b1 contact-btn">contact us</button>
+            <button id="mobile-btn" class="b1 contact-mobile-btn"><i id="mob" class="fa-solid fa-bars fa-2x"></i></button>
         </nav>
         <section class="header-section">
             <div class="left-header">
                 <h1>About</h1>
             </div>
-            <div class="right-header1">
-                <p class="b1">
-                    We help companies build dynamic teams made up of top global talent. Using our network of passionate
-                    professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the
-                    best products and experiences. We'll bring those teams to you.</p>
+            <div class="right-header">
+                <div class="header-top-space"></div>
+                <p class="b1 b1-special">We help companies build dynamic teams made up of top global talent. Using our network of passionate professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the best products and experiences. We’ll bring those teams to you.</p>
             </div>
         </section>
+        <div class="svg-group1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="200" viewBox="0 0 100 200" fill="none" class="svgdecor svg2">
+                <rect x="100" y="100" width="100" height="100" transform="rotate(180 100 100)" fill="#2C6269"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M100 200C155.228 200 200 155.228 200 100C200 44.7715 155.228 0 100 0C44.7715 0 0 44.7715 0 100C0 155.228 44.7715 200 100 200ZM100 133C118.225 133 133 118.225 133 100C133 81.7746 118.225 67 100 67C81.7746 67 67 81.7746 67 100C67 118.225 81.7746 133 100 133Z" fill="#F67E7E"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M100 0H0V4H100V0ZM100 8H0V12H100V8ZM0 16H100V20H0V16ZM100 24H0V28H100V24ZM0 32H100V36H0V32ZM100 40H0V44H100V40Z" fill="#79C8C7"/>
+              </svg>
+        </div>
     </header>
-    <main>
+    <main id="main">
         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="200" viewBox="0 0 100 200" fill="none"
             class="svgdecor">
             <rect width="100" height="100" transform="matrix(1 0 0 -1 0 100)" fill="#2C6269" />
@@ -153,7 +155,7 @@
         </div>
     </article>
     <!-- thank you ctrl+c and ctrl+v -->
-    <footer>
+    <footer id="footer">
         <section class="footer-top">
                 <div class="div-position">
                     <div>
