@@ -377,7 +377,6 @@ footer {
     }
     /* header section end */
 }
-<<<<<<< HEAD
 .submit {
     background-color: white;
     color: #004047;
@@ -385,12 +384,11 @@ footer {
     height: 48px;
     width: 123px;
     text-align: center;
+    margin-top:10px
 }
 .submit:hover {
     cursor:pointer;
 }
-=======
 br{
     
 }
->>>>>>> 1fa402b85984a769b385eb015f7ba36f7e2623ba
