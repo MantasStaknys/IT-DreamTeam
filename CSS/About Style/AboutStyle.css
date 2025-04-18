@@ -5,7 +5,11 @@ body {
 
 .svgdecor {
     position: absolute;
-    bottom: -29.5px;
+}
+
+.svgdecor1 {
+    position: absolute;
+    bottom: -30px;
 }
 
 .svg1 {
@@ -15,7 +19,7 @@ body {
 
 .svg2 {
     position: absolute;
-    bottom: -20px;
+    bottom: 0px;
     right: 0px;
 }
 
@@ -682,6 +686,9 @@ footer {
     .b1-special {
         font-size: 15px;
         line-height: 28px;
+    }
+    .linecontainer{
+        display: flex;
     }
 
     /* footer start */
