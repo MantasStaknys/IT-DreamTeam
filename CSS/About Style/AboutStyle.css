@@ -321,7 +321,7 @@ h2 {
 /* 1 row for 3 boxes */
 .linecontainer {
     display: grid;
-    width: 1100px;
+    min-width: 1100px;
     height: 253px;
     align-self: center;
     grid-template-areas: 
@@ -709,7 +709,7 @@ footer {
         line-height: 28px;
     }
     .linecontainer{
-        display: flex;
+        display: grid;
     }
 
     /* footer start */
@@ -803,6 +803,45 @@ footer {
 
 }
 
+@media (min-width:769px) and (max-width: 1115px){
+    main{height: 1219px;}
+    .linecontainer {
+        justify-content: center;
+        display: flex;
+        width: 1100px;
+        height: 253px;
+        align-self: center;
+        margin-top: 30px;
+        column-gap: 28px;
+        row-gap: 60px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .m_1{
+        display: inline;
+    }
+    
+    .m_2{
+        display: inline;
+    }
+    
+    .m_3{
+        display: inline;
+    }
+    
+    .m_4{
+        display: inline;
+    }
+    
+    .m_5{
+        display: inline;
+    }
+    
+    .m_6{
+        display: inline;
+    }
+
+}
 
 /* media quary (sm) */
 @media (max-width:768px) {
