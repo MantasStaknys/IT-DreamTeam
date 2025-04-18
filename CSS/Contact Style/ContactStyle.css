@@ -6,10 +6,10 @@ body {
 
 h1 {
     font-family: "Livvic", sans-serif;
-    font-size: 100px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100px;
+    line-height: 64px;
 }
 
 h2 {
@@ -203,7 +203,6 @@ nav {
 }
 input {
     border:none;
-    width:100vw;
     background:none
 }
 .form {
@@ -291,9 +290,7 @@ footer {
         text-align:right;
     }
     .footer-div-right {
-        width: 100%;
-        display:flex;
-        justify-content:space-between
+        width:100%;
     }
     .godown {
         margin-bottom:0;
@@ -343,9 +340,8 @@ footer {
         font-size:smaller
     }
     .footer-div-right {
-        width: 100%;
-        text-align: center;
-        display:block
+        width:100%;
+        text-align:center;
     }
 
     .md-inline {
@@ -372,4 +368,15 @@ footer {
         left:-100px;
     }
     /* header section end */
+}
+.submit {
+    background-color: white;
+    color: #004047;
+    border-radius: 24px;
+    height: 48px;
+    width: 123px;
+    text-align: center;
+}
+.submit:hover {
+    cursor:pointer;
 }
