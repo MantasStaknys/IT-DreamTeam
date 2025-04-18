@@ -812,12 +812,12 @@ footer {
 
 }
 
-@media (min-width:769px) and (max-width: 1115px){
+@media (min-width:769px) and (max-width: 1105px){
     main{height: 1219px;}
     .linecontainer {
         justify-content: center;
         display: flex;
-        width: 1100px;
+        width: 100vw;
         height: 253px;
         align-self: center;
         margin-top: 30px;
