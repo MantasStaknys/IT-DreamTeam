@@ -428,7 +428,12 @@ h2 {
 }
 
 .textshow_icons{
+    display: flex;
     margin-top: 24px;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 /* if pres on plus icon */
 .descriptionOPENED {
@@ -445,11 +450,12 @@ h2 {
 
 .fa-xl {
     color: white;
-    margin-right: 13px;
+    margin-right: 0px;
 }
 
-.fa-xl:last-child {
+.fa-xl:hover {
     color: #F67E7E;
+    cursor: pointer;
 }
 
 .plusSVG {
@@ -466,6 +472,9 @@ h2 {
     transition: 0.2s ease-in-out;
 }
 
+.twitter-in:hover{
+    background-color: #e2e2e2;
+}
 /*end of styles for directors table */
 
 
