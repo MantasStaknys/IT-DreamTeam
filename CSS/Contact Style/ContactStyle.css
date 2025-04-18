@@ -171,7 +171,9 @@ nav {
 
 /* header section style*/
 .section {
+    display: flex;
     margin:auto;
+    justify-content: space-between;
 }
 
 .floatleft {
@@ -182,6 +184,7 @@ nav {
     width:540px;
 }
 .letters {
+    margin-top: 10px;
     color:#F67E7E;
     font-size:32px;
 }
@@ -191,6 +194,10 @@ nav {
 /* header section end */
 
 /* form style */
+h1{
+    font-size: 64px;
+    margin-bottom: 0px;
+}
 .text {
     font-family: "Livvic", sans-serif;
     font-size:15px;
@@ -206,6 +213,7 @@ input {
     background:none
 }
 .form {
+    margin-top: 120px;
     width:540px;
     height:420px;
 }
@@ -369,6 +377,7 @@ footer {
     }
     /* header section end */
 }
+<<<<<<< HEAD
 .submit {
     background-color: white;
     color: #004047;
@@ -380,3 +389,8 @@ footer {
 .submit:hover {
     cursor:pointer;
 }
+=======
+br{
+    
+}
+>>>>>>> 1fa402b85984a769b385eb015f7ba36f7e2623ba
