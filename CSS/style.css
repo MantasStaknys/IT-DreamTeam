@@ -131,10 +131,19 @@ nav {
     display: none;
 }
 
+.mob-svg {
+    position: absolute;
+    margin-top: 600px;
+    top: 0;
+    right: 0;
+}
+
+
 .contact-mobile-btn:hover {
     color: #F67E7E;
     cursor: pointer;
 }
+
 
 .contact-btn:hover {
     background-color: white;
