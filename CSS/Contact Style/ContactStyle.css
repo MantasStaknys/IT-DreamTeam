@@ -214,7 +214,8 @@ input {
     outline:none;
     width:100%;
     border-bottom:1px solid white;
-    margin-bottom:20px
+    margin-bottom:20px;
+    color:#FFFFFF;
 }
 input:focus {
     border-color:#79C8C7;
@@ -233,6 +234,9 @@ input:invalid {
     width:100%;
     border-bottom:1px solid white;
     max-width:544px;
+    height:81px;
+    color:#FFFFFF;
+    max-height:81px;
  }
  textarea:focus {
     border-color:#79C8C7;
@@ -315,6 +319,14 @@ footer {
 /* media quaries */
 
 @media (max-width:1440px) {
+    /* section */
+
+    /* section start */
+
+    /* form */
+
+    /* form end */
+
     /* footer */
     .footer-div-left{
         width:50%;
@@ -361,6 +373,14 @@ footer {
     /* header section end */
 }
 @media (max-width:768px) {
+    /* form start */
+    form {
+        width:327px;
+        max-width:327px;
+    }
+    /* form end */
+
+    /* footer start */
     .inline {
         display:block;
     }
