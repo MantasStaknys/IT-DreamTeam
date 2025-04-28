@@ -48,6 +48,14 @@ h3 {
     font-weight: 600;
     line-height: 25px;
 }
+.b3 {
+    font-family: "Livvic", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    line-height:18px
+}
 
 /* icon size style */
 .icon-size {
@@ -262,7 +270,7 @@ nav {
 .header-top-space {
     width: 50px;
     height: 4px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     background-color: #79C8C7;
 }
 
