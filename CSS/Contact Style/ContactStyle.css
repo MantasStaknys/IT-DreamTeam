@@ -210,8 +210,22 @@ h1{
 }
 input {
     border:none;
-    background:none
+    background:none;
+    outline:none;
+    width:100%;
+    border-bottom:1px solid white;
 }
+input:focus {
+    border-color:#79C8C7;
+}
+/* .trusttheprocess {
+    width:100%;
+    border-bottom:1px solid white;
+
+}
+input:active .trusttheprocess {
+    border-color:#79C8C7
+} */
 .form {
     margin-top: 120px;
     width:540px;
@@ -389,6 +403,6 @@ footer {
 .submit:hover {
     cursor:pointer;
 }
-br{
+/* br{
     
-}
+} */
