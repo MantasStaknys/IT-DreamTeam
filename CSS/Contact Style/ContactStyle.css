@@ -214,7 +214,7 @@ input {
     outline:none;
     width:100%;
     border-bottom:1px solid white;
-    margin-bottom:20px;
+    margin-bottom: 40px;
     color:#FFFFFF;
 }
 input:focus {
@@ -319,12 +319,17 @@ footer {
 /* media quaries */
 
 @media (max-width:1440px) {
-    /* section */
-
-    /* section start */
+    /* header */
+    header {
+        height:1204px
+    }
+    /* header end */
 
     /* form */
-
+    .floatleft {
+        float:none;
+        display:block
+    }
     /* form end */
 
     /* footer */
@@ -373,6 +378,12 @@ footer {
     /* header section end */
 }
 @media (max-width:768px) {
+    /* header */
+    header {
+        height:1132px;
+    }
+    /* header end */
+
     /* form start */
     form {
         width:327px;
