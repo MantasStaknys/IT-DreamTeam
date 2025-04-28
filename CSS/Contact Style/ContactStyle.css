@@ -209,24 +209,29 @@ h1{
 .line {
     border-bottom:1px solid white;
 }
+/* input styles */
 input {
     border:none;
     background:none;
     outline:none;
     width:100%;
-    border-bottom:1px solid white;
+    
+    margin-bottom:20px
 }
-input:focus {
+/* input:focus {
     border-color:#79C8C7;
 }
-/* .trusttheprocess {
-    width:100%;
-    border-bottom:1px solid white;
-
-}
-input:active .trusttheprocess {
-    border-color:#79C8C7
+input:invalid {
+    border-color:#F67E7E;
+    color:#F67E7E;
 } */
+ .pleasework {
+    border-bottom:1px solid white;
+ }
+ input:focus .pleasework {
+    border-color:#79C8C7
+ }
+/* input styles end */
 .form {
     margin-top: 120px;
     width:540px;
