@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     font-family: "Livvic", sans-serif;
-    font-size: 48px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
@@ -167,19 +167,94 @@ nav {
 .red-highlight {
     color: #F67E7E;
 }
+.mobile-menu {
+    width: 255px;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    background-color: #014E56;
+    transition: 0.2s ease-in-out;
+    right: -255px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.fa-xmark {
+    align-self: flex-end;
+    margin-right: 25px;
+    margin-top: 56px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-xmark:hover {
+    color: #F67E7E;
+    cursor: pointer;
+}
+
+.mobile-home-btn {
+    margin-top: 39px;
+    margin-left: 48px;
+    margin-bottom: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-link {
+    margin-bottom: 36px;
+    margin-left: 48px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.mobile-link:hover {
+    color: #F67E7E;
+    cursor: pointer;
+}
+
+.mobile-contact-btn {
+    margin-left: 48px;
+    width: 153px;
+    height: 48px;
+    background-color: #014E56;
+    color: white;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    transition: ease-in-out 0.2s;
+}
+
+.mobile-contact-btn:hover {
+    background-color: white;
+    color: #014E56;
+    cursor: pointer;
+}
 
 /* nav copyable/ */
 
 /* header section style*/
 .section {
     display: flex;
-    margin:auto;
+    margin: 0 auto;
     justify-content: space-between;
+    flex-wrap:wrap;
 }
 
 .floatleft {
     float:left;
+    height:428px;
+    margin-top:70px
 }
+
+.form {
+    margin-top: 120px;
+    width:540px;
+    height:420px;
+}
+
 .header-section-div {
     height:312px;
     width:540px;
@@ -216,6 +291,7 @@ input {
     border-bottom:1px solid white;
     margin-bottom: 40px;
     color:#FFFFFF;
+    max-width:540px;
 }
 input:focus {
     border-color:#79C8C7;
@@ -237,16 +313,14 @@ input:invalid {
     height:81px;
     color:#FFFFFF;
     max-height:81px;
+    min-height:81px;
+    min-width:544px
  }
  textarea:focus {
     border-color:#79C8C7;
  }
 /* input styles end */
-.form {
-    margin-top: 120px;
-    width:540px;
-    height:420px;
-}
+
 /* footer styles */
 footer {
     display: flex;
@@ -323,12 +397,16 @@ footer {
     header {
         height:1204px
     }
+    nav {
+        width: 750px;
+    }
+    
     /* header end */
 
     /* form */
     .floatleft {
         float:none;
-        display:block
+        display:block;
     }
     /* form end */
 
@@ -372,8 +450,35 @@ footer {
     /* footer end */
 
     /* header section contents */
+    .section {
+        flex-direction:column;
+    }
     .floatleft {
         float:none;
+        margin: 0 auto;
+        margin-top:0;
+        width:515px;
+        height:384px;
+        margin-bottom: 111px;
+        margin-top: 50px
+    }
+    .header-section-div {
+        width:515px;
+        height:384px;
+    }
+    .form {
+        width:542px;
+        margin: 0 auto;
+    }
+    h1 {
+        text-align:center;
+    }
+    h2 {
+        text-align:center;
+    }
+
+    .position1 {
+        bottom:51rem;
     }
     /* header section end */
 }
@@ -382,12 +487,29 @@ footer {
     header {
         height:1132px;
     }
+    .home-link,
+    .about-link,
+    .contact-btn {
+        display: none;
+    }
+
+    nav {
+        width: 327px;
+    }
+    .contact-mobile-btn {
+        display: inline-block;
+        margin-left: auto;
+    }
     /* header end */
 
     /* form start */
     form {
         width:327px;
         max-width:327px;
+    }
+    textarea {
+        max-width:324px;
+        min-width:324px;
     }
     /* form end */
 
@@ -431,8 +553,34 @@ footer {
     /* header section */
     .position1 {
         left:-100px;
+        opacity:1
+    }
+    .position2 {
+        bottom:-100px;
+    }
+    .header-section-div {
+        width:327px;
+    }
+    .form {
+        width:327px;
+
+    }
+    .floatleft {
+        width:327px;
+        margin-bottom:60px;
+    }
+    .marge3 {
+        float:left;
+    }
+    h1 {
+        font-size:40px;
+        line-height:40px;
+    }
+    .about-bits {
+        margin-bottom:20px;
     }
     /* header section end */
+
 }
 .submit {
     background-color: white;
