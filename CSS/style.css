@@ -557,7 +557,7 @@ footer {
         width: 768px;
         height: 3080px;
         margin: auto;
-        left: -8px;
+        left: -46px;
     }
 
     .header-logo{
@@ -681,17 +681,12 @@ footer {
     }
 
     .article1-section2 {
-<<<<<<< HEAD
-        align-self: flex-start;
-        height: 400px;
-=======
         display: flex;
         position: relative;
         top: -65px;
         left: 55px;
         flex-direction: column;
         height: 100%;
->>>>>>> abc5750f3952602a1f23d19e0c3aa61055dae1b0
     }
 
     .article1-section1 {
