@@ -12,6 +12,9 @@ h1 {
     font-weight: 700;
     line-height: 64px;
 }
+.h1 {
+    margin-bottom:35px;
+}
 
 h2 {
     font-family: "Livvic", sans-serif;
@@ -36,6 +39,7 @@ h3 {
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    letter-spacing:0px;
 }
 
 /* body 2 style */
@@ -75,14 +79,15 @@ h3 {
 }
 .position1 {
     left:0;
-    bottom:20rem;
+    bottom:24rem;
 }
 .position2 {
     right:0;
     bottom:0;
 }
 .marge3 {
-    margin-right:10px;
+    margin-right:20px;
+    float:left;
 }
 /* svg  end*/
 
@@ -266,14 +271,15 @@ nav {
 }
 .about-bits {
     height:72px;
+    margin-bottom:0px
+}
+.yes {
+    padding-top:20px;
 }
 /* header section end */
 
 /* form style */
-h1{
-    font-size: 64px;
-    margin-bottom: 0px;
-}
+
 .text {
     font-family: "Livvic", sans-serif;
     font-size:15px;
@@ -569,16 +575,12 @@ footer {
         width:327px;
         margin-bottom:60px;
     }
-    .marge3 {
-        float:left;
-    }
+
     h1 {
         font-size:40px;
         line-height:40px;
     }
-    .about-bits {
-        margin-bottom:20px;
-    }
+
     /* header section end */
 
 }
