@@ -421,7 +421,6 @@ footer {
 .article1-section2 {
     width: 540px;
     color: white;
-    align-self: flex-end;
 }
 
 .main-article-top-space {
@@ -530,8 +529,25 @@ footer {
 
     /* header */
 
+    .navigation{
+        margin-left: auto;
+        margin-top: 64px;
+    }
+
+    .headerrr{
+        position: relative;
+        width: 768px;
+        height: 3080px;
+        margin: auto;
+        left: -8px;
+    }
+
+    .header-logo{
+        width: 128px;
+    }
+
     nav {
-        width: 750px;
+        width: 689px;
     }
 
     .svg-group1 {
@@ -539,7 +555,10 @@ footer {
     }
 
     .svg-group2 {
-        right: 31vw;
+        position: relative;
+        display: flex;
+        top: 88px;
+        left: 205px;
     }
 
     .header-section {
@@ -560,6 +579,8 @@ footer {
         height: 110px;
         width: 400px;
         margin: 0;
+        margin-top: 59px;
+        margin-left: 4px;
     }
 
     .left-header h1 {
@@ -579,6 +600,8 @@ footer {
     .b1-special {
         font-size: 15px;
         line-height: 28px;
+        margin-top: 3.1px;
+        margin-right: 1px;
     }
 
     /* footer */
@@ -640,16 +663,31 @@ footer {
     }
 
     .article1-section2 {
-        align-self: flex-start;
+        display: flex;
+        position: relative;
+        top: -65px;
+        left: 55px;
+        flex-direction: column;
+        height: 100%;
     }
 
     .article1-section1 {
-        align-self: flex-start;
+        position: relative;
+        top: -63px;
+        right: -57px;
     }
 
     .main-article1-header {
+        position: relative;
         height: 100px;
+        margin: 0;
+        color: #FFF;
+        font-family: Livvic;
         font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+        top: -28px;
     }
 
     .article1-svg-group3 {
