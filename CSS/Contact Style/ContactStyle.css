@@ -313,6 +313,8 @@ input:invalid {
     height:81px;
     color:#FFFFFF;
     max-height:81px;
+    min-height:81px;
+    min-width:544px
  }
  textarea:focus {
     border-color:#79C8C7;
@@ -504,6 +506,10 @@ footer {
     form {
         width:327px;
         max-width:327px;
+    }
+    textarea {
+        max-width:324px;
+        min-width:324px;
     }
     /* form end */
 
