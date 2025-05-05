@@ -310,7 +310,9 @@ input {
     border-bottom:1px solid white;
     margin-bottom: 40px;
     color:#FFFFFF;
-    max-width:540px;
+    max-width:526px;
+    padding-left:12px;
+    padding-bottom:16px;
 }
 input:focus {
     border-color:#79C8C7;
