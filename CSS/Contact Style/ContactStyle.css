@@ -476,6 +476,7 @@ footer {
     }
     .md-inline {
         display:inline;
+        margin-left:auto;
         /* align-self: */
     }
     .right {
@@ -491,8 +492,8 @@ footer {
         height:271px
     }
     .footer-logo {
-        width:120px;
-        height:30px;
+        width:96px;
+        height:24px;
     }
     .div-position {
         width:760px;
@@ -577,15 +578,27 @@ footer {
     .inline {
         display:block;
     }
+
+    .footer-logo {
+        margin-top:17px;
+        margin-bottom:22px;
+    }
+
+    .marge {
+        margin-right:20px;
+    }
+
     .footer-div-left{
         width:100%;
         text-align:center;
     }
+
     .footer-div-middle {
         width:100%;
         text-align:center;
         font-size:smaller
     }
+
     .footer-div-right {
         width:100%;
         text-align:center;
@@ -599,7 +612,6 @@ footer {
     }
     .footer-bottom {
         height:432px;
-        padding: 20px 0 0 0
     }
     .div-position {
         width:50%;
