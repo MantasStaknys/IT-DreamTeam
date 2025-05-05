@@ -79,11 +79,7 @@ h3 {
 }
 .position1 {
     left:0;
-<<<<<<< HEAD
     bottom:344px;
-=======
-    bottom:24rem;
->>>>>>> 80ce167b261f17f0a9540e0d91153c88cc97a809
 }
 .position2 {
     right:0;
@@ -163,24 +159,14 @@ nav {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .home-link
 {
     margin-left: 82px;
-=======
-.home-link {
-    margin-left: 80px;
->>>>>>> 80ce167b261f17f0a9540e0d91153c88cc97a809
     color: white;
     text-decoration: none;
     transition: ease-in-out 0.2s;
 }
-<<<<<<< HEAD
-.about-link{
-=======
-
 .about-link {
->>>>>>> 80ce167b261f17f0a9540e0d91153c88cc97a809
     margin-left: 41px;
     color: white;
     text-decoration: none;
@@ -329,8 +315,13 @@ input {
     margin-bottom: 40px;
     color:#FFFFFF;
     max-width:526px;
+}
+.alignletters {
     padding-left:12px;
     padding-bottom:16px;
+}
+.push1 {
+    margin-bottom:23px;
 }
 input:focus {
     border-color:#79C8C7;
@@ -348,12 +339,12 @@ input:invalid {
     border:none;
     width:100%;
     border-bottom:1px solid white;
-    max-width:544px;
+    max-width:540px;
     height:81px;
     color:#FFFFFF;
     max-height:81px;
     min-height:81px;
-    min-width:544px
+    min-width:540px
  }
  textarea:focus {
     border-color:#79C8C7;
@@ -454,7 +445,7 @@ footer {
     }
 
     .h1 {
-        margin-bottom:20px;
+        margin-bottom:-19px;
     }
     .godown1 {
         margin-bottom:-10px;
@@ -559,9 +550,7 @@ footer {
         display: inline-block;
         margin-left: auto;
     }
-    .h1 {
-        margin-bottom:15px;
-    }
+
     .letters {
         margin-bottom:40px;
     }
@@ -575,12 +564,12 @@ footer {
 
     /* form start */
     form {
-        width:327px;
-        max-width:327px;
+        width:311px;
+        max-width:325px;
     }
     textarea {
-        max-width:324px;
-        min-width:324px;
+        max-width:321px;
+        min-width:321px;
     }
     /* form end */
 
@@ -634,7 +623,7 @@ footer {
     }
     .form {
         width:327px;
-        margin-top:0px;
+        margin-top:50px;
     }
     .floatleft {
         width:327px;
@@ -656,7 +645,7 @@ footer {
     height: 48px;
     width: 123px;
     text-align: center;
-    margin-top:-18px
+    margin-top:20px
 }
 .submit:hover {
     cursor:pointer;
