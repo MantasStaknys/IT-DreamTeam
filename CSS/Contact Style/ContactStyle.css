@@ -75,7 +75,7 @@ h3 {
 }
 .position1 {
     left:0;
-    bottom:20rem;
+    bottom:344px;
 }
 .position2 {
     right:0;
@@ -111,7 +111,8 @@ nav {
     max-height: 50px;
     flex-shrink: 0;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 73px;
+    margin-left: 165px;
     align-items: center;
     justify-content: flex-start;
 }
@@ -122,7 +123,7 @@ nav {
 }
 
 .contact-btn {
-    margin-left: auto;
+    margin-left: 577px;
     width: 153px;
     height: 48px;
     background-color: #014E56;
@@ -151,14 +152,19 @@ nav {
     cursor: pointer;
 }
 
-.home-link,
-.about-link {
-    margin-left: 50px;
+.home-link
+{
+    margin-left: 82px;
     color: white;
     text-decoration: none;
     transition: ease-in-out 0.2s;
 }
-
+.about-link{
+    margin-left: 41px;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+}
 .home-link:hover,
 .about-link:hover {
     color: #F67E7E;
@@ -237,8 +243,10 @@ nav {
 
 /* header section style*/
 .section {
+    margin-top:14px;
     display: flex;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
     flex-wrap:wrap;
 }
@@ -246,7 +254,8 @@ nav {
 .floatleft {
     float:left;
     height:428px;
-    margin-top:70px
+    margin-top:70px;
+    margin-right:26px;
 }
 
 .form {
@@ -260,7 +269,8 @@ nav {
     width:540px;
 }
 .letters {
-    margin-top: 10px;
+    margin-top: 34px;
+    margin-right: 4px;
     color:#F67E7E;
     font-size:32px;
 }
