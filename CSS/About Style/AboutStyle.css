@@ -599,6 +599,11 @@ footer {
     height: 40px;
 }
 
+
+.opacity {
+    opacity:60%;
+}
+
 .inline {
     display: inline;
 }
@@ -660,6 +665,17 @@ footer {
 
     /* header */
 
+    header {
+        height: 556px;
+    }
+
+
+    .header-logo {
+        width: 128px;
+        height: 32px;
+        flex-shrink: 0;
+    }
+    
     h1 {
         font-family: "Livvic", sans-serif;
         font-size: 64px;
@@ -668,9 +684,25 @@ footer {
         line-height: 56px;
     }
 
+    .contact-btn {
+        width: 153px;
+        margin-left: 220px;
+        
+    }
+
+    .home-link {
+        margin-left: 48px;
+    }
+
+    .about-link {
+        margin-left: 40px;
+    }
+
 
     nav {
         width: 750px;
+        margin-left: 39px;
+        margin-top: 65px;
     }
 
     .svg-group1 {
@@ -685,9 +717,9 @@ footer {
         height: 200px;
         width: 683px;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
-        gap: 20px;
+        /* gap: 20px; */
     }
 
 
@@ -702,9 +734,10 @@ footer {
     }
 
     .left-header h1 {
-        margin: 0 auto;
+        margin: 25px auto;
         text-align: center;
         width: 375px;
+        margin-top: 10px;
     }
 
     .right-header {
@@ -718,14 +751,130 @@ footer {
     .b1-special {
         font-size: 15px;
         line-height: 28px;
+        margin: 0;
     }
     .linecontainer{
-        display: grid;
+        margin-top: 40px;
     }
+
+
+    .h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        width: 445px;
+        height: 32px;
+        margin: 0;
+    }
+
+    .h2container {
+        display: block;
+        width: 445px;
+        height: 32px;
+        margin-top: 100px;
+        margin-left: 162px;
+    }
+
+    .maincontainer {
+        width: 281px;
+        height: 253px;
+    }
+
+    .maincontainer2 {
+        width: 281px;
+        height: 253px;
+    }
+
+    .text-show {
+        padding-left: 0;
+        padding-right: 0;
+        width: 233px;
+        padding-right: 24px;
+    }
+
+    .textshow_text {
+        height: 75px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .textshow_icons {
+        margin-top: 28px;
+    }
+
+    .plusSVG {
+        margin-right: 150px;
+        margin-left: 113px;
+        /* position: absolute; */
+        transform: translateX(0px);
+    }
+
+    .sponsorArticle {
+        height: 308px;
+        position: relative;
+    }
+
+    .svgfix {
+        top: -100px;
+    }
+
+    .h2container1 {
+        padding-top: 100px;
+        height: 32px;
+        width: 457px;
+        margin: 0 auto;
+    }
+
+    .h2_cont1 {
+        width: 467px;
+    }
+
+    .banners {
+        margin-top: 52px;
+    }
+
 
     /* footer start */
     .footer-div-left {
         width: 50%;
+    }
+
+    .footer-logo {
+        width: 96px;
+        height: 24px;
+        margin-bottom: 53px;
+        margin-top: 38px;
+    }
+
+    .marge {
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 166.667% */
+    }
+
+    .inline {
+        color: #012F34;
+        font-family: Livvic;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+        width: 336px;
+        height: 32px;
+
+    }
+
+    .div-position {
+        margin-left: 97px;
+        text-align: center;
     }
 
     .footer-div-middle {
@@ -756,18 +905,15 @@ footer {
     }
 
     .altcontact-button {
-        margin-left: 50px;
+        margin-left: 80px;
+        width: 153px;
+        height: 48px;
+        flex-shrink: 0;
     }
 
     .footer-bottom {
-        height: 271px
+        height: 271px;
     }
-
-    .footer-logo {
-        width: 120px;
-        height: 30px;
-    }
-
     .div-position {
         width: 760px;
     }
@@ -809,7 +955,7 @@ footer {
         height:28px;
     }
     .banners {
-        margin-top:40px
+        margin-top:52px
     }
 
 }
@@ -822,9 +968,9 @@ footer {
         width: 100vw;
         height: 253px;
         align-self: center;
-        margin-top: 30px;
-        column-gap: 28px;
-        row-gap: 60px;
+        margin-top: 48px;
+        column-gap: 11px;
+        row-gap: 76px;
         flex-direction: row;
         flex-wrap: wrap;
     }
