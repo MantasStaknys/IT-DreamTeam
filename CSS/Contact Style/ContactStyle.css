@@ -12,6 +12,9 @@ h1 {
     font-weight: 700;
     line-height: 64px;
 }
+.h1 {
+    margin-bottom:35px;
+}
 
 h2 {
     font-family: "Livvic", sans-serif;
@@ -36,6 +39,7 @@ h3 {
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    letter-spacing:0px;
 }
 
 /* body 2 style */
@@ -75,14 +79,19 @@ h3 {
 }
 .position1 {
     left:0;
+<<<<<<< HEAD
     bottom:344px;
+=======
+    bottom:24rem;
+>>>>>>> 80ce167b261f17f0a9540e0d91153c88cc97a809
 }
 .position2 {
     right:0;
     bottom:0;
 }
 .marge3 {
-    margin-right:10px;
+    margin-right:20px;
+    float:left;
 }
 /* svg  end*/
 
@@ -116,7 +125,9 @@ nav {
     align-items: center;
     justify-content: flex-start;
 }
-
+.goleft {
+    margin-left:114px;
+}
 .header-logo {
     width: 160px;
     height: 40px;
@@ -152,14 +163,24 @@ nav {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .home-link
 {
     margin-left: 82px;
+=======
+.home-link {
+    margin-left: 80px;
+>>>>>>> 80ce167b261f17f0a9540e0d91153c88cc97a809
     color: white;
     text-decoration: none;
     transition: ease-in-out 0.2s;
 }
+<<<<<<< HEAD
 .about-link{
+=======
+
+.about-link {
+>>>>>>> 80ce167b261f17f0a9540e0d91153c88cc97a809
     margin-left: 41px;
     color: white;
     text-decoration: none;
@@ -277,13 +298,19 @@ nav {
 .about-bits {
     height:72px;
 }
+.godown1 {
+    margin-bottom:-4px;
+}
+.godown2 {
+    margin-bottom:-9px;
+}
+.yes {
+    padding-top:20px;
+}
 /* header section end */
 
 /* form style */
-h1{
-    font-size: 64px;
-    margin-bottom: 0px;
-}
+
 .text {
     font-family: "Livvic", sans-serif;
     font-size:15px;
@@ -342,7 +369,6 @@ footer {
     background-color:#002529;
     display:flex;
     height:196px;
-    width:100vw;
     justify-content:space-evenly;
     align-items:center;
     flex-wrap:wrap;
@@ -351,6 +377,10 @@ footer {
 .footer-logo {
     width:160px;
     height:40px;
+}
+
+.opacity {
+    opacity:60%;
 }
 
 .inline {
@@ -399,7 +429,7 @@ footer {
 
 .right {
     text-align:right;
-}/* Main */
+}
 /* media quaries */
 
 @media (max-width:1440px) {
@@ -410,7 +440,24 @@ footer {
     nav {
         width: 750px;
     }
-    
+    .goleft {
+        margin-left:0;
+    }
+    .home-link,
+    .about-link {
+        margin-left: 50px;
+        color: white;
+        text-decoration: none;
+        transition: ease-in-out 0.2s;
+    }
+
+    .h1 {
+        margin-bottom:20px;
+    }
+    .godown1 {
+        margin-bottom:-10px;
+    }
+
     /* header end */
 
     /* form */
@@ -510,6 +557,18 @@ footer {
         display: inline-block;
         margin-left: auto;
     }
+    .h1 {
+        margin-bottom:15px;
+    }
+    .letters {
+        margin-bottom:40px;
+    }
+    .godown1 {
+        margin-bottom:25px
+    }
+    .godown2 {
+        margin-bottom:24px;
+    }
     /* header end */
 
     /* form start */
@@ -573,22 +632,18 @@ footer {
     }
     .form {
         width:327px;
-
+        margin-top:0px;
     }
     .floatleft {
         width:327px;
         margin-bottom:60px;
     }
-    .marge3 {
-        float:left;
-    }
+
     h1 {
         font-size:40px;
         line-height:40px;
     }
-    .about-bits {
-        margin-bottom:20px;
-    }
+
     /* header section end */
 
 }
@@ -599,7 +654,7 @@ footer {
     height: 48px;
     width: 123px;
     text-align: center;
-    margin-top:10px
+    margin-top:-18px
 }
 .submit:hover {
     cursor:pointer;
