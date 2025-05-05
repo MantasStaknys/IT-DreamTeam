@@ -599,6 +599,11 @@ footer {
     height: 40px;
 }
 
+
+.opacity {
+    opacity:60%;
+}
+
 .inline {
     display: inline;
 }

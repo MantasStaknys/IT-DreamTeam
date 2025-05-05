@@ -10,7 +10,6 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="../JS/contact.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@549&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -20,7 +19,7 @@
         <img src="../IMG/contact1.svg" alt="" class="svg position2">
         <!-- svg -->
         <nav>
-            <img class="header-logo" src="../IMG/myteam 2.svg" alt="">
+            <img class="header-logo goleft" src="../IMG/myteam 2.svg" alt="">
             <a class="b1 home-link link" href="../index.html">home</a>
             <a class="b1 about-link link" href="about.html">about</a>
             <button class="b1 contact-btn" onclick="window.location.href='contact.html'">contact us</button>
@@ -29,46 +28,47 @@
         <section class="section">
             <div class="floatleft">
                 <div class="header-section-div">
-                    <h1>Contact</h1>
+                    <h1 class="h1">Contact</h1>
                     <h2 class="letters">Ask us about</h2>
-                    <div class="about-bits">
-                        <img src="../IMG/Card-icon1.svg" alt="" class="marge3">
-                            <span class="b1">The quality of our talent network</span>
+                    <div class="about-bits godown1">
+                        <img src="../IMG/Card-icon1.svg" alt="" class="marge3 godown1">
+                        <p class="yes"><span class="b1 yes">The quality of our talent network</span></p>
+                            
                     </div>
-                    <div class="about-bits">
-                        <img src="../IMG/Card-icon2.svg" alt="" class="marge3">
-                        <span class="b1">Usage & implementation of our software</span>
+                    <div class="about-bits godown2">
+                        <img src="../IMG/Card-icon2.svg" alt="" class="marge3 godown2">
+                        <p class="yes"><span class="b1">Usage & implementation of our software</span></p>
+                        
                     </div>
                     <div class="about-bits">
                         <img src="../IMG/Card-icon3.svg" alt="" class="marge3">
-                        <span class="b1">How we help drive innovation</span>
+                        <p class="yes"><span class="b1">How we help drive innovation</span></p>
+                        
                     </div>
                 </div>
             </div>
             <div class="form">
             <form action="">
-                    <input type="text" id="inputName" placeholder="Name" class="text b2">  
+                    <input type="text" id="" required placeholder="Name" class="text b2 alignletters push1">  
                 <br>
         
 
-                <input type="email" id="inputEmail" placeholder="Email Address" class="text b2">
+                <input type="email" id=""required placeholder="Email Address" class="text b2 alignletters push1">
                 <br>
           
 
-                <input type="text" id="inputCompany" placeholder="Company Name" class="text b2">
+                <input type="text" id="" required placeholder="Company Name" class="text b2 alignletters push1">
                 <br>
             
 
-                <input type="text" id="inputTitle" placeholder="Title" class="text b2">
+                <input type="text" id="" required placeholder="Title" class="text b2 alignletters push1">
                 <br>
 
-                <textarea name="" id="inputMessage" placeholder="Message" class="text b2" wrap="hard"></textarea>
-                <br>
-                <br>
+                <textarea name="" id="" required placeholder="Message" class="text b2" wrap="hard"></textarea>
                 <br>
            
 
-                <input type="submit" id="inputSubmit" value="Submit" class="submit b1">
+                <input type="submit" value="Submit" class="submit b1">
             </form> 
             </div>
         
@@ -87,7 +87,7 @@
                     <a href="../index.html" class="link marge b2">home</a>
                     <a href="about.html" class="link b2">about</a>
                 </div>   
-            <div class="b2 color1 footer-div-middle">
+            <div class="b2 color1 footer-div-middle opacity">
                     987 Hillcrest VLone <br>
                     Irvine, CA <br>
                     California 92714 <br>
@@ -99,7 +99,7 @@
                 <i class="fa-brands fa-pinterest icon-size marge2 link"></i>
                 <i class="fa-brands fa-twitter icon-size link godown"></i>
                 </div>
-                <p class="md-inline">Copyright 2020. All Rights Reserved</p>
+                <p class="md-inline opacity">Copyright 2020. All Rights Reserved</p>
             </div>    
         </section>
     </footer>
