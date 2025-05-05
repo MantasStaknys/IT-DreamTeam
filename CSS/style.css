@@ -47,6 +47,7 @@ h3 {
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
+    margin-bottom: 10px;
 }
 .b3 {
     font-family: "Livvic", sans-serif;
@@ -110,7 +111,7 @@ nav {
     width: 1110px;
     height: 48px;
     flex-shrink: 0; 
-    margin: 0 auto;
+    margin-left: 166px;
 
     margin-top: 73px;
     align-items: center;
@@ -163,12 +164,16 @@ nav {
 
 .home-link,
 .about-link {
-    margin-left: 50px;
     color: white;
     text-decoration: none;
     transition: ease-in-out 0.2s;
 }
-
+.home-link{
+    margin-left: 76px;
+}
+.about-link{
+    margin-left: 46px;
+}
 .home-link:hover,
 .about-link:hover {
     color: #F67E7E;
@@ -247,24 +252,30 @@ nav {
 /* nav copyable/ */
 
 /* header section styling */
+.h1custom{
+    margin-top: 0px;
+}
 
 .header-section {
     display: flex;
-    margin: 100px auto;
-    width: 1410px;
-    height: 200px;
+    margin: 100px 0;
+    width: 1180px;
+    height: 260px;
     align-items: center;
     justify-content: space-between;
+    margin-left: 60px;
 }
 
 .left-header {
     width: 610px;
-    margin-left: 100px;
+    margin-left: 105px;
+    margin-top: 0px;
 }
 
 .right-header {
     width: 445px;
-    align-self: flex-end;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 .header-top-space {
@@ -291,7 +302,7 @@ nav {
 .svg-group2 {
     position: absolute;
     bottom: -5px;
-    right: 65px;
+    right: 163px;
 }
 
 
@@ -314,6 +325,7 @@ nav {
     width: 1110px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .opaque {
@@ -426,14 +438,19 @@ footer {
 .article1-section2 {
     width: 540px;
     color: white;
+<<<<<<< HEAD
     align-self: flex-end;
+    margin-bottom: 8px;
+=======
+>>>>>>> abc5750f3952602a1f23d19e0c3aa61055dae1b0
 }
 
 .main-article-top-space {
     width: 50px;
     height: 4px;
-    margin-bottom: 60px;
+    margin-bottom: 56px;
     background-color: #F67E7E;
+    margin-top: 4px;
 }
 
 .article1-infocard-header {
@@ -442,7 +459,7 @@ footer {
 
 .card-icon {
     float: left;
-    margin-right: 26px;
+    margin-right: 21px;
 }
 
 .article1-svg-group3 {
@@ -535,8 +552,25 @@ footer {
 
     /* header */
 
+    .navigation{
+        margin-left: auto;
+        margin-top: 64px;
+    }
+
+    .headerrr{
+        position: relative;
+        width: 768px;
+        height: 3080px;
+        margin: auto;
+        left: -46px;
+    }
+
+    .header-logo{
+        width: 128px;
+    }
+
     nav {
-        width: 750px;
+        width: 689px;
     }
 
     .svg-group1 {
@@ -544,7 +578,10 @@ footer {
     }
 
     .svg-group2 {
-        right: 31vw;
+        position: relative;
+        display: flex;
+        top: 88px;
+        left: 205px;
     }
 
     .header-section {
@@ -565,6 +602,8 @@ footer {
         height: 110px;
         width: 400px;
         margin: 0;
+        margin-top: 59px;
+        margin-left: 4px;
     }
 
     .left-header h1 {
@@ -584,6 +623,8 @@ footer {
     .b1-special {
         font-size: 15px;
         line-height: 28px;
+        margin-top: 3.1px;
+        margin-right: 1px;
     }
 
     /* footer */
@@ -645,16 +686,31 @@ footer {
     }
 
     .article1-section2 {
-        align-self: flex-start;
+        display: flex;
+        position: relative;
+        top: -65px;
+        left: 55px;
+        flex-direction: column;
+        height: 100%;
     }
 
     .article1-section1 {
-        align-self: flex-start;
+        position: relative;
+        top: -63px;
+        right: -57px;
     }
 
     .main-article1-header {
+        position: relative;
         height: 100px;
+        margin: 0;
+        color: #FFF;
+        font-family: Livvic;
         font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+        top: -28px;
     }
 
     .article1-svg-group3 {
@@ -770,7 +826,6 @@ footer {
     .article1-svg-group3 {
         top: 0px;
     }
-
     /* article2 */
     .article2 {
         height: 1740px;
