@@ -29,5 +29,6 @@ form.addEventListener('submit', e=>{
     }
     if (correct == 5) {
         alert("your message was sent to us! Tralaleilo Tralala");
+        form.requestSubmit();
     }
 });
