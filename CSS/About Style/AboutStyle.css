@@ -591,18 +591,33 @@ footer {
 }
 
 .footer-bottom {
-    background-color: #002529;
-    display: flex;
-    height: 196px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    background-color:#002529;
+    display:flex;
+    height:196px;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
     z-index:2;
+}
+.footer-bottom-container {
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    height:100px;
+    width:1110px
+
+}
+.footer-div-left {
+ margin-right:128px;
+}
+.footer-div-right {
+    margin-left:auto;
 }
 
 .footer-logo {
-    width: 160px;
-    height: 40px;
+    width:160px;
+    height:40px;
+    margin-bottom:10px;
 }
 
 
@@ -864,10 +879,9 @@ footer {
     }
 
     .footer-logo {
-        width: 96px;
-        height: 24px;
-        margin-bottom: 53px;
-        margin-top: 38px;
+        width:96px;
+        height:24px;
+        margin-bottom:50px;
     }
 
     .marge {
@@ -877,6 +891,9 @@ footer {
         font-style: normal;
         font-weight: 600;
         line-height: 25px; /* 166.667% */
+    }
+    .marge {
+        margin-right:20px;
     }
 
     .inline {
@@ -923,7 +940,25 @@ footer {
     .footer-bottom {
         padding: 0 30px 0 30px
     }
-
+    .footer-bottom-container {
+        width:689px;
+        height:159px
+    }
+    .footer-div-left{
+        width:50%;
+        margin-right:0;
+    }
+    .footer-div-middle {
+        width:50%;
+        text-align:right;
+    }
+    .footer-div-right {
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-top:21px;
+    }
     .altcontact-button {
         margin-left: 80px;
         width: 153px;
@@ -1214,24 +1249,34 @@ footer {
     .inline {
         display: block;
     }
-
-    .footer-div-left {
-        width: 100%;
-        text-align: center;
+    .footer-logo {
+        margin-top:17px;
+        margin-bottom:22px;
+    }
+    .footer-bottom-container {
+        width:327px;
+        height:302px;
+    }
+    .footer-div-left{
+        width:100%;
+        text-align:center;
+        margin-top: -15px;
+        margin-bottom: 21px
     }
 
     .footer-div-middle {
-        width: 100%;
-        text-align: center;
-        font-size: smaller
+        width:100%;
+        text-align:center;
+        font-size:smaller
     }
 
     .footer-div-right {
-        width: 100%;
-        text-align: center;
-        display:block
+        width:100%;
+        text-align:center;
+        display:block;
+        margin-top:40px;
     }
-
+    
     .md-inline {
         display: block;
     }
