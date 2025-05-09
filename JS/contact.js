@@ -1,33 +1,29 @@
-let inputName = document.getElementById("inputName");
-let inputEmail = document.getElementById("inputEmail");
-let inputCompany = document.getElementById("inputCompany");
-let inputTitle = document.getElementById("inputTitle");
-let inputMessage = document.getElementById("inputMessage");
-let inputSubmit = document.getElementById("inputSubmit");
 
 let form = document.forms[0];
 
-let inputs = [inputName, inputEmail, inputCompany, inputTitle, inputMessage]
+let inputs = document.getElementsByClassName('formss')
+
+let correct = 0;
 
 form.addEventListener('submit', e=>{
     e.preventDefault();
+    correct = 0;
+    console.log(inputs)
 
-    for(let i = 0; i < inputs.length; i++){
-        if(inputs[0].value.length > 0 && inputs[1].value.length > 0 && inputs[2].value.length > 0 && inputs[3].value.length > 0 && inputs[4].value.length > 0){
-            alert('your message is arrived to us!');
-            inputs.forEach(input => {
-                input.value = null
-            
-            });
-
-            break;
-        } 
+    Array.from(inputs).forEach(e => {
+        if(e.value.trim().length == 0){
+            e.style.borderColor = '#F67E7E';
+        }
         else{
-            inputs.forEach(input => {
-                    if(input.value.length == 0){
-                        input.style.backgroundColor = "red";
-                    };
-                })
+            e.style.borderColor = '';
         };
-    };
+    });
+    for(let i = 0; i < inputs.length; i++){
+        if(inputs[i].style.borderColor == ''){
+            correct++;
+        }
+    }
+    if (correct == 5) {
+        alert("your message was sent to us! Tralaleilo Tralala");
+    }
 });
