@@ -104,6 +104,16 @@ header {
     color: white;
 }
 
+
+.headerrr{
+    min-width: 1440px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    left: -5.7px;
+    height: 700px;
+}
 /* nav styling */
 
 nav {
@@ -112,10 +122,12 @@ nav {
     height: 48px;
     flex-shrink: 0; 
     margin-left: 166px;
-
+    margin: auto;
     margin-top: 73px;
     align-items: center;
     justify-content: flex-start;
+    position: relative;
+    left: 5px;
 }
 
 .header-logo {
@@ -264,6 +276,18 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-left: 60px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    left: -68px;
+}
+
+
+.b1-special{
+    width: 445px;
+    position: relative;
+    left: 38px;
+    top: 1px;
 }
 
 .left-header {
@@ -283,6 +307,9 @@ nav {
     height: 4px;
     margin-bottom: 80px;
     background-color: #79C8C7;
+    position: relative;
+    left: 38px;
+    top: 1px;
 }
 
 /* header svg's */
@@ -294,9 +321,11 @@ nav {
 }
 
 .svg-group1 {
-    position: absolute;
-    left: 0px;
-    top: 250px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: -132px;
+    left: 5px;
 }
 
 .svg-group2 {
@@ -328,6 +357,15 @@ nav {
     margin-bottom: 10px;
 }
 
+.vwesfwq{
+    display: flex;
+    margin: auto;
+    gap: 125px;
+    position: relative;
+    left: -143px;
+    top: 5px;
+}
+
 .opaque {
     opacity: 0.8;
 }
@@ -347,17 +385,20 @@ footer {
     height: 200px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .footer-bottom {
     background-color: #002529;
+    margin: auto;
     display: flex;
     height: 196px;
-    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     z-index:2;
+    min-width: 1441px;
+    width: 100%;
+    gap: 125px;
 }
 
 .footer-logo {
@@ -372,6 +413,16 @@ footer {
 
 .inline {
     display: inline;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+    left: 173px;
 }
 
 .svg-position {
@@ -406,7 +457,23 @@ footer {
     width: 153px;
     text-align: center;
     transition: ease-in-out 0.2s;
-    margin-left: 600px
+    margin-left: 600px;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    position: relative;
+    left: -170px;
+    top: -1px;
+    
+}
+
+.main-article1-header{
+    position: relative;
+    left: -1px;
+    top: -1px;
 }
 
 .altcontact-button:hover {
@@ -438,11 +505,6 @@ footer {
 .article1-section2 {
     width: 540px;
     color: white;
-<<<<<<< HEAD
-    align-self: flex-end;
-    margin-bottom: 8px;
-=======
->>>>>>> abc5750f3952602a1f23d19e0c3aa61055dae1b0
 }
 
 .main-article-top-space {
@@ -451,6 +513,9 @@ footer {
     margin-bottom: 56px;
     background-color: #F67E7E;
     margin-top: 4px;
+    position: relative;
+    left: -1px;
+    top: 1px;
 }
 
 .article1-infocard-header {
@@ -460,6 +525,40 @@ footer {
 .card-icon {
     float: left;
     margin-right: 21px;
+    position: relative;
+    top: 16px;
+    left: 1px;
+}
+
+.second-icon{
+    position: relative;
+    top: 30px;
+}
+
+.tretij-icon{
+    position: relative;
+    top: 43px;
+}
+
+.text-align{
+    position: relative;
+    top: 16px;
+    color: #FFF;
+    left: 1px;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 166.667% */
+}
+
+.second-text{
+    top: 30px;
+
+}
+
+.tretij-tekst{
+    top: 44px;
 }
 
 .article1-svg-group3 {
@@ -487,6 +586,29 @@ footer {
     left: 0;
 }
 
+.jrtjtrjrt{
+    position: relative;
+    top: 22px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    gap: 0;
+}
+
+
+.pwqofq{
+    position: relative;
+    left: 3px;
+}
+
+.gwrkengw{
+    position: relative;
+    left: -13px;
+}
+
 .article2-svg2 {
     position: absolute;
     right: 0;
@@ -499,11 +621,38 @@ footer {
     text-align: center;
 }
 
+.article2-div h2{
+    width: 932px;
+    margin: auto;
+}
+
+.fa-pinterest{
+    position: relative;
+    left: -6px;
+}
+
+.fa-twitter{
+    position: relative;
+    left: -13px;
+}
+
+.footer-div-right{
+    position: relative;
+    left: -152px;
+    top: 12px;
+}
+
 .horror-div {
     display: grid;
     gap: 20px;
     grid-template-columns: auto auto auto;
-
+    width: 1110px;
+    height: 313px;
+    flex-shrink: 0;
+    margin: auto;
+    position: relative;
+    top: 86px;
+    left: -3px;
 }
 
 .horrifying-div {
@@ -511,16 +660,84 @@ footer {
 }
 
 .div-svg {
+    display: flex;
     position: absolute;
-    top: -15px;
-    opacity: 0.7;
+    margin: auto;
     z-index: -1;
-    left: 173px;
+    left: 145px;
+    top: -30px;
 }
 
+#circle2{
+    position: relative;
+    left: 2px;
+}
+
+#iditeee{
+    position: relative;
+    left: 8px;
+}
+
+#iditees{
+    position: relative;
+    left: 5px;
+}
+
+.md-inline{
+    position: relative;
+    left: -14px;
+}
+
+#circle3{
+    position: relative;
+    top: 11px;
+    left: 5px;
+}
+
+.div-svg2{
+    left: 525px;
+}
+
+.div-svg3{
+    left: 905px;
+}
 /* inner grid text */
 .text-bottom-marge {
+    width: 350px;
     margin-bottom: 15px;
+    position: relative;
+    top: -9px;
+    left: 3px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 166.667% */
+}
+
+
+.idite{
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
+    position: relative;
+    top: 2px;
+    left: -1px;
+}
+
+.iditee{
+    left: 4px;
+}
+
+.idite2{
+    left: 2px;
 }
 
 /* Circular images */
@@ -531,16 +748,44 @@ footer {
     height: 62px;
     width: 62px;
     display: block;
+    position: relative;
+    top: 0px;
+    left: -1px;
 }
-
 /* media queries */
 
 
 @media (max-width: 1440px) {
-    /* this applies from 1440px to 768px */
 
+    /* this applies from 1440px to 768px */
+    .text-bottom-marge{
+        width: 573px;
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 166.667% */
+        position: relative;
+        top: -82px;
+    }
 
     /* font styles */
+
+    #xmcvnxcnwe{
+        width: 460px;
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+        position: relative;
+        top: 10px;
+        left: -3px;
+    }
 
     h1 {
         font-family: "Livvic", sans-serif;
@@ -552,17 +797,19 @@ footer {
 
     /* header */
 
-    .navigation{
-        margin-left: auto;
-        margin-top: 64px;
+    .headerrr{
+        min-width: 768px;
+        height: 700px;
+        flex-shrink: 0;
+        width: 100%;
     }
 
-    .headerrr{
-        position: relative;
-        width: 768px;
-        height: 3080px;
-        margin: auto;
-        left: -46px;
+    .home-link{
+        margin-left: 48px;
+    }
+
+    .about-link{
+        margin-left: 40px;
     }
 
     .header-logo{
@@ -571,6 +818,9 @@ footer {
 
     nav {
         width: 689px;
+        position: relative;
+        top: -9px;
+        left: 4px;
     }
 
     .svg-group1 {
@@ -578,15 +828,14 @@ footer {
     }
 
     .svg-group2 {
-        position: relative;
-        display: flex;
-        top: 88px;
-        left: 205px;
+        right: 200px;
     }
+
+
 
     .header-section {
         height: 200px;
-        width: 683px;
+        width: 700px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -599,11 +848,18 @@ footer {
     }
 
     .left-header {
-        height: 110px;
-        width: 400px;
-        margin: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px; /* 87.5% */
         margin-top: 59px;
-        margin-left: 4px;
+        margin-left: 49px;
+        position: relative;
+        left: 52px;
+        top: -10px;
     }
 
     .left-header h1 {
@@ -612,19 +868,34 @@ footer {
         width: 375px;
     }
 
+    .main-article-top-space{
+        position: relative;
+        top: -15px;
+        left: -1px;
+    }
+
     .right-header {
         height: 110px;
-        width: 457px;
+        width: 500px;
         margin: 0;
         align-self: center;
         text-align: center;
     }
 
     .b1-special {
+        color: #FFF;
+        width: 457px;
+        text-align: center;
+        font-family: Livvic;
         font-size: 15px;
-        line-height: 28px;
-        margin-top: 3.1px;
-        margin-right: 1px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 186.667% */
+        margin-top: 3px;
+        margin-left: 39px;
+        position: relative;
+        top: -8px;
+        left: 55px;
     }
 
     /* footer */
@@ -668,6 +939,47 @@ footer {
         height: 271px
     }
 
+    .first-icon{
+        position: relative;
+        top: -10px;
+        left: 5px;
+    }
+
+    .second-icon{
+        position: relative;
+        top: 2px;
+        left: 5px;
+    }
+
+    .tretij-icon{
+        position: relative;
+        top: 11px;
+        left: 5px;
+    }
+
+    .text-align{
+        width: 480px;
+        margin-left: 96px;
+        margin-top: -6px;
+    }
+
+    .first-text{
+        position: relative;
+        top: -21px;
+        left: 5px;
+    }
+
+    .second-text{
+        position: relative;
+        top: -10px;
+        left: 5px;
+    }
+
+    .tretij-tekst{
+        left: 5px;
+        top: -1px;
+    }
+
     .footer-logo {
         width: 120px;
         height: 30px;
@@ -683,6 +995,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        position: relative;
+        top: 80px;
     }
 
     .article1-section2 {
@@ -697,7 +1011,7 @@ footer {
     .article1-section1 {
         position: relative;
         top: -63px;
-        right: -57px;
+        right: -64px;
     }
 
     .main-article1-header {
@@ -710,7 +1024,7 @@ footer {
         font-style: normal;
         font-weight: 700;
         line-height: 32px; /* 100% */
-        top: -28px;
+        top: -40px;
     }
 
     .article1-svg-group3 {
@@ -728,11 +1042,8 @@ footer {
     }
 
     .horror-div {
-        grid-template:
-            "card1"
-            "card2"
-            "card3"
-        ;
+        display: flex;
+        flex-direction: column;
     }
 
     .card-icon {
@@ -744,16 +1055,51 @@ footer {
 
     .div-svg {
         align-self: center;
+        position: relative;
+        margin: auto;
+        left: -270px;
+    }
 
-        left: 44%;
+    .idite{
+        position: relative;
+        left: -270px;
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+    }
+
+    .div-svg2{
+        
+    }
+
+    .color2{
+        position: relative;
+        left: -272px;
+        top: -81px;
+    }
+
+    .dsadasdsadas{
+        left: -2px;
+    }
+
+    .iditee{
+        top: -165px;
+        left: -4px;
     }
 
     .circle {
         margin-bottom: 40px;
+        position: relative;
+        left: -272px;
+        top: -100px;
     }
 
     .article1 {
-        height: 870px;
+        height: 710px;
     }
     .svg-position {
         bottom:-25px
