@@ -351,11 +351,12 @@ nav {
 
 .vwesfwq{
     display: flex;
-    margin: auto;
-    gap: 125px;
+    left: 190px;
+    gap: 280px;
     position: relative;
-    left: -143px;
     top: 5px;
+    width: 640px;
+    justify-content: none;
 }
 
 .opaque {
@@ -1433,7 +1434,7 @@ footer {
 
     .footer-bottom {
         height: 432px;
-        padding: 20px 0 0 0
+        width: 100vw;
     }
 
     .div-position {
