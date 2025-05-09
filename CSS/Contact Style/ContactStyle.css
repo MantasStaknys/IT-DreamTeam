@@ -101,7 +101,8 @@ header {
     position: relative;
     flex-shrink: 1;
     background-color: #014E56;
-    height: 789px;
+    min-height: 789px;
+    height: 100%;
     width: 100vw;
     flex-direction: column;
     color: white;
@@ -332,6 +333,17 @@ input:invalid {
 }
  input:focus .pleasework {
     border-color:#79C8C7
+ }
+
+ .mememe{
+    margin: 0;
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    display: none;
  }
  textarea {
     outline:none;
