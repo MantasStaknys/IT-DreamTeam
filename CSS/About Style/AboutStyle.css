@@ -233,6 +233,12 @@ nav {
     position: relative;
 }
 
+.svg-head {
+    position: absolute;
+    right: 0px;
+    bottom: -43px;
+}
+
 
 /* link stylings */
 .link {
@@ -701,13 +707,11 @@ footer {
 
     nav {
         width: 750px;
-        margin-left: 39px;
-        margin-top: 65px;
+        margin: 65px auto;
+        margin-bottom: 0;
+        padding-left: 40px;
     }
 
-    .svg-group1 {
-        display: none;
-    }
 
     .svg-group2 {
         right: 31vw;
@@ -775,8 +779,8 @@ footer {
         display: block;
         width: 445px;
         height: 32px;
-        margin-top: 100px;
-        margin-left: 162px;
+        margin: 100px auto;
+        margin-bottom: 0px;
     }
 
     .maincontainer {
@@ -835,6 +839,22 @@ footer {
 
     .banners {
         margin-top: 52px;
+    }
+
+    .linecontainer {
+        justify-content: center;
+        display: grid;
+        width: 1100px;
+        height: 253px;
+        align-self: center;
+        grid-template-areas: 
+        "m_1 m_2"
+        "m_3 m_4" 
+        "m_5 m_6";
+        margin-top: 48px;
+        column-gap: 11px;
+        row-gap: 76px;
+        
     }
 
 
@@ -962,7 +982,7 @@ footer {
 
 @media (min-width:769px) and (max-width: 1105px){
     main{height: 1219px;}
-    .linecontainer {
+    /* .linecontainer {
         justify-content: center;
         display: flex;
         width: 100vw;
@@ -973,7 +993,7 @@ footer {
         row-gap: 76px;
         flex-direction: row;
         flex-wrap: wrap;
-    }
+    } */
     .m_1{
         display: inline;
     }
@@ -1012,6 +1032,10 @@ footer {
         font-style: normal;
         font-weight: 700;
         line-height: 40px;
+    }
+
+    header {
+        height: 520px;
     }
 
 
@@ -1063,7 +1087,14 @@ footer {
     }
 
     nav {
-        width: 400px;
+        width: 327px;
+        margin: 48px auto;
+        margin-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .svg-head {
+        bottom: -140px;
     }
 
     .svg-group2 {
@@ -1072,12 +1103,14 @@ footer {
 
     .contact-mobile-btn {
         display: inline-block;
-        margin-left: auto;
+        position: fixed;
+        margin-left: 179px;
+        z-index: 3;
     }
 
     /* grid area with obladaet */
     main{
-        height: 2200px;
+        height: 2062px;
     }
     .linecontainer:nth-child(3){
         margin-bottom: 650px;
@@ -1113,7 +1146,7 @@ footer {
     /* obla end */
     /* sponsor banner start */
     .sponsorArticle{
-        height: 600px;
+        height: 632px;
     }
     .h2container1{
         width: 300px;
@@ -1209,7 +1242,7 @@ footer {
 
     .footer-bottom {
         height: 432px;
-        padding: 20px 0 0 0
+        padding: 0px 0 0 0
     }
 
     .div-position {
