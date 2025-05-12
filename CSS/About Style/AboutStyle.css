@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
     user-select: none;
 }
 
@@ -94,7 +95,8 @@ nav {
 
 .contact-mobile-btn {
     border: none;
-    background-color: #014E56;
+    /* background-color: #014E56; */
+    background-color: rgba(100, 100, 100, 0);
     color: white;
     transition: ease-in-out 0.2s;
     display: none;
@@ -1094,25 +1096,29 @@ footer {
 
     .left-header h1 {
         margin: 0 auto;
+        margin-left: 73px;
+        margin-top: 10px;
         text-align: center;
         width: 230px;
     }
 
     .left-header {
         width: 400px;
+        margin-bottom: 0px;
     }
 
     .right-header {
         height: 200px;
         width: 327px;
-        margin: 0;
+        margin: 0 auto;
+        margin-left: 25px;
         align-self: center;
         text-align: center;
     }
 
     .b1-special {
         font-size: 15px;
-        line-height: 25px;
+        line-height: 28px;
     }
 
     .home-link,
@@ -1132,6 +1138,11 @@ footer {
         bottom: -140px;
     }
 
+    .svgdecor {
+        top: -100px;
+        z-index: -2;
+    }
+
     .svg-group2 {
         right: 8vw;
     }
@@ -1139,8 +1150,9 @@ footer {
     .contact-mobile-btn {
         display: inline-block;
         position: fixed;
-        margin-left: 179px;
+        margin-left: 300px;
         z-index: 3;
+        background-color: 0;
     }
 
     /* grid area with obladaet */
@@ -1165,18 +1177,53 @@ footer {
         "m_6";
         margin-top: 30px;
         column-gap: 28px;
-        row-gap: 60px;
+        row-gap: 52px;
+        margin-left: 12px;
         
     }
     .h2container{
         width: 327px;
-        height: 90px;
+        height: 32px;
+        text-align: center;
+        margin-top: 88px;
+        margin-bottom: 16px;
 
     }
     .h2{
+        width: 327px;
         font-size: 32px;
         margin: 0 0;
         z-index: 10;
+    }
+
+    .maincontainer_all {
+        width: 327px;
+        height: 253px;
+        flex-shrink: 0;
+    }
+
+    .text-show {
+        padding-left: 0;
+        padding-right: 0;
+        width: 233px;
+        padding-right: 48px;
+    }
+
+    .textshow_text {
+        height: 75px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .textshow_icons {
+        margin-top: 28px;
+    }
+
+    .plusSVG {
+        margin-right: 150px;
+        margin-left: 135px;
+        /* position: absolute; */
+        transform: translateX(0px);
     }
     /* obla end */
     /* sponsor banner start */
@@ -1185,7 +1232,7 @@ footer {
     }
     .h2container1{
         width: 300px;
-        padding-top: 70px;
+        padding-top: 88px;
     }
     .svgfix{
         transform: translateX(-100px) translateY(-100px);
@@ -1197,7 +1244,8 @@ footer {
         margin: 0 auto;
         align-items: center;
         gap: 50px;
-        margin-top:30px
+        margin-top:15px;
+        margin-left: 70px;
     }
     .banner_1-div{
         display: inline;
@@ -1248,6 +1296,8 @@ footer {
     /* footer start */
     .inline {
         display: block;
+        width: 200px;
+        margin-top: 0;
     }
     .footer-logo {
         margin-top:17px;
@@ -1291,12 +1341,15 @@ footer {
     }
 
     .div-position {
-        width: 50%;
+        width: 327px;
+        height: 64px;
+        margin-left: 88px;
         text-align: center;
     }
 
     .altcontact-button {
         margin-left: 0;
+        margin-top: 30px;
     }
     /* footer end */
 }
