@@ -356,11 +356,12 @@ nav {
 
 .vwesfwq{
     display: flex;
-    margin: auto;
-    gap: 125px;
+    left: 190px;
+    gap: 280px;
     position: relative;
-    left: -143px;
     top: 5px;
+    width: 640px;
+    justify-content: none;
 }
 
 .opaque {
@@ -413,6 +414,8 @@ footer {
     width:160px;
     height:40px;
     margin-bottom:10px;
+    position: relative;
+    top: -22px;
 }
 
 
@@ -738,6 +741,38 @@ footer {
     left: 37px;
 }
 
+.link_home{
+    position: relative;
+    top: -10px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+}
+
+.link_about{
+    position: relative;
+    top: -9px;
+    left: -12px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+}
+
+.footer-div-middle{
+    position: relative;
+    top: -8px;
+}
+
+.md-inline{
+    position: relative;
+    left: 1px;
+}
 /* Circular images */
 .circle {
     margin: 32px auto;
@@ -1119,6 +1154,45 @@ footer {
         width:96px;
         height:24px;
         margin-bottom:50px;
+        position: relative;
+        top: -2px;
+        left: -40px;
+    }
+
+    .link_home{
+        position: relative;
+        top: -5px;
+        left: -40px;
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 166.667% */
+    }
+
+    .link_about{
+        position: relative;
+        top: -5px;
+        left: -40px;
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 166.667% */
+    }
+
+    .footer-div-middle{
+        position: relative;
+        top: 0px;
+        left: -40px;
+    }
+
+    .footer-div-right{
+        position: relative;
+        top: -11px;
+        left: -40px;
     }
 
     .div-position {
@@ -1244,6 +1318,258 @@ footer {
 @media (max-width: 768px) {
     /* this applies from 768px to 327px */
 
+/* FIXES DONT TUCH THIS SHIT THX */
+
+.header-logo{
+    position: relative;
+    top: 49px;
+    left: 1px;
+}
+
+.navigation{
+    margin: auto;
+}
+
+.headerrr{
+    min-width: 376px;
+    width: 100%;
+    height: 567px;
+}
+
+#header{
+    height: 567px;
+}
+
+.contact-mobile-btn{
+    position: fixed;
+    top: 52px;
+    font-size: 11px;
+    height: 17px;
+    flex-shrink: 0;
+    left: 324px;
+    z-index: 52;
+}
+
+.left-header{
+    position: relative;
+    top: 28px;
+    left: 73px;
+    width: 327px;
+}
+
+.b1-special{
+    position: relative;
+    top: 24px;
+    left: 35px;
+    width: 327px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.svg-group2{
+    right: 3.5px;
+}
+
+.article1-section1{
+    position: relative;
+    top: -30px;
+    left: -50px;
+    margin: auto;
+}
+
+.first-icon{
+    position: relative;
+    left: -55px;
+    top: -49px;
+}
+
+.opaque{
+    position: relative;
+    top: -31px;
+    left: -276px;
+    margin: auto;
+    width: 327px;
+}
+
+.article1{
+    height: 1073px;
+    flex-shrink: 0;
+}
+
+.ultra-div52{
+    min-width: 376px;
+    width: 100%;
+    margin: auto;
+    height: 1073px;
+}
+
+.article1-infocard-header{
+    position: relative;
+    left: -276px;
+    top: -23px;
+}
+
+.second-icon{
+    position: relative;
+    left: -56px;
+    top: -5px;
+}
+
+.asd{
+    position: relative;
+    top: 2px;
+}
+
+.das{
+    position: relative;
+    top: 11px;
+}
+
+.tretij-icon{
+    position: relative;
+    left: -55px;
+    top: 40px;
+}
+
+.zxc{
+    position: relative;
+    top: 38px;
+}
+
+.cxz{
+    position: relative;
+    top: 46px;
+}
+
+.article1{
+    height: 1073px;
+}
+
+#xmcvnxcnwe{
+    position: relative;
+    width: 327px;
+    top: 50px;
+    left: -38px;
+}
+
+#sakfafw{
+    position: relative;
+    width: 327px;
+    left: -34px;
+    top: -43px;
+}
+
+.kokonauttt{
+    position: relative;
+    left: -427px;
+    top: -42px;
+}
+
+.div-svg1{
+    position: relative;
+    left: -427px;
+    top: 12px;
+}
+
+#iditeesss{
+    left: -427px;
+    top: -40px;
+}
+
+.gkorea{
+    left: -427px;
+    top:  -58px;
+}
+
+.div-svg2{
+    left: -427px;
+    top: -72px;
+}
+
+.iditee{
+    width: 327px;
+    top: -127px;
+    left: -36px;
+}
+
+.kokonautt{
+    left: -427px;
+    top: -126px;
+}
+
+#iditeess{
+    top: -124px;
+    left: -427px;
+}
+
+#circle2{
+    left: -427px;
+    top: -142px;
+}
+
+#iditeee{
+    width: 327px;
+    left: -36px;
+    top: -211px;
+}
+
+.div-svg3{
+    left: -427px;
+    top: -156px;
+}
+
+.kokonautttt{
+    left: -427px;
+    top: -209px;
+}
+
+#iditees{
+    left: -427px;
+    top: -208px;
+}
+
+#circle3{
+    left: -427px;
+    top: -226px;
+}
+
+.inline{
+    position: relative;
+    left: 0px;
+    top: -12px;
+    width: 327px;
+    margin: auto;
+}
+
+.altcontact-button{
+    position: relative;
+    left: 0px;
+    top: 12px;
+    margin: auto;
+}
+
+.div-position{
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: auto;
+}
+
+.footer-top{
+    min-width: 375px;
+    width: 100%;
+    height: 302px;
+    flex-shrink: 0;
+}
+/* FIXES END */
+
 
     /* font styles */
 
@@ -1297,10 +1623,6 @@ footer {
         margin: 0 auto;
     }
 
-    .article1 {
-        height: 1150px;
-    }
-
     .article1-infocard-header {
         text-align: center;
     }
@@ -1314,7 +1636,7 @@ footer {
     }
     /* article2 */
     .article2 {
-        height: 1740px;
+        height: 1410px;
     }
 
     .article2-div {
@@ -1340,8 +1662,6 @@ footer {
 
     .div-svg {
         align-self: center;
-
-        left: 37%;
     }
 
     .circle {
@@ -1384,7 +1704,7 @@ footer {
 
     .b1-special {
         font-size: 15px;
-        line-height: 25px;
+        line-height: 28px;
     }
 
     .home-link,
@@ -1395,10 +1715,6 @@ footer {
 
     nav {
         width: 327px;
-    }
-
-    .svg-group2 {
-        right: 8vw;
     }
 
     .contact-mobile-btn {
@@ -1415,8 +1731,13 @@ footer {
         margin-bottom:22px;
     }
     .footer-bottom-container {
-        width:327px;
-        height:302px;
+        min-width:327px;
+        width: 100%;
+        height: 302px;
+        margin: auto;
+        position: relative;
+        left: 10px;
+        top: 1px;
     }
     .footer-div-left{
         width:100%;
@@ -1448,7 +1769,12 @@ footer {
 
     .footer-bottom {
         height: 432px;
+        min-width: 376px;
+        width: 100%;
         padding: 0px 0 0 0
+    }
+    .footer-bottom-container {
+        margin-left:55px;
     }
 
     .div-position {

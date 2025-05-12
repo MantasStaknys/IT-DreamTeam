@@ -326,10 +326,7 @@ input {
 input:focus {
     border-color:#79C8C7;
 }
-input:invalid {
-    border-color:#F67E7E;
-    color:#F67E7E;
-}
+
  input:focus .pleasework {
     border-color:#79C8C7
  }
@@ -342,6 +339,8 @@ input:invalid {
     font-weight: 700;
     line-height: normal;
     display: none;
+    position:absolute;
+    margin-top:-15px;
  }
 
  textarea {
