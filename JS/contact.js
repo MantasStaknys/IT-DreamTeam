@@ -10,7 +10,6 @@ let correct = 0;
 form.addEventListener('submit', e=>{
     e.preventDefault();
     correct = 0;
-    console.log(inputs)
     
     Array.from(inputs).forEach((e, er) => {
         if(e.value.trim().length == 0){
