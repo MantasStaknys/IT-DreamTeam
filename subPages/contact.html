@@ -14,7 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@549&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <div id="brg-menu" class="mobile-menu">
+        <i class="fa-solid fa-xmark fa-2x"></i>
+        <a class="b1 mobile-link mobile-home-btn" href="../index.html">home</a>
+        <a class="b1 mobile-link" href="about.html">about</a>
+        <button class="b1 mobile-contact-btn" onclick="window.location.href='contact.html'">contact us</button>
+    </div>
+    <header id="header">
         <!-- svg -->
         <img src="../IMG/contact2.svg" alt="" class="svg position1">
         <img src="../IMG/contact1.svg" alt="" class="svg position2">
@@ -24,7 +30,7 @@
             <a class="b1 home-link link" href="../index.html">home</a>
             <a class="b1 about-link link" href="about.html">about</a>
             <button class="b1 contact-btn" onclick="window.location.href='contact.html'">contact us</button>
-            <button class="b1 contact-mobile-btn"><i class="fa-solid fa-bars fa-2x"></i></button>
+            <button id="mobile-btn" class="b1 contact-mobile-btn"><i class="fa-solid fa-bars fa-2x"></i></button>
         </nav>
         <section class="section">
             <div class="floatleft">
@@ -74,7 +80,7 @@
                 <br>
            
 
-                <input type="submit" value="Submit" class="submit b1">
+                <button type="button" onlick="check()" class="submit b1" id="SubmitBTN">Submit</button>
             </form> 
             </div>
         
@@ -86,7 +92,7 @@
 
         
 
-    <footer>
+    <footer id="footer">
         <section class="footer-bottom">
             <div class="footer-bottom-container">
                 <div class="footer-div-left">

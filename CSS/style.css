@@ -356,11 +356,12 @@ nav {
 
 .vwesfwq{
     display: flex;
-    margin: auto;
-    gap: 125px;
+    left: 190px;
+    gap: 280px;
     position: relative;
-    left: -143px;
     top: 5px;
+    width: 640px;
+    justify-content: none;
 }
 
 .opaque {
@@ -1768,8 +1769,16 @@ footer {
 
     .footer-bottom {
         height: 432px;
+<<<<<<< HEAD
         min-width: 376px;
         width: 100%;
+=======
+<<<<<<< HEAD
+        width: 100vw;
+=======
+        padding: 0px 0 0 0
+>>>>>>> 1ec6ac98f2bdc1c7426952854660795e0e66119e
+>>>>>>> 4aae848077d52fa9186e6c5d80c59cbe81528c72
     }
 
     .div-position {
