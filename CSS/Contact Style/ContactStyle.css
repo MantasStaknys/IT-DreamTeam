@@ -101,8 +101,7 @@ header {
     position: relative;
     flex-shrink: 1;
     background-color: #014E56;
-    min-height: 789px;
-    height: 100%;
+    height: 789px;
     width: 100vw;
     flex-direction: column;
     color: white;
@@ -331,7 +330,6 @@ input:focus {
  input:focus .pleasework {
     border-color:#79C8C7
  }
-
  .mememe{
     margin: 0;
     color: #F67E7E;
@@ -342,6 +340,7 @@ input:focus {
     line-height: normal;
     display: none;
  }
+
  textarea {
     outline:none;
     background:none;
@@ -371,10 +370,24 @@ footer {
     background-color:#002529;
     display:flex;
     height:196px;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:center;
     flex-wrap:wrap;
     z-index:2;
+}
+.footer-bottom-container {
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    height:100px;
+    width:1110px
+
+}
+.footer-div-left {
+ margin-right:128px;
+}
+.footer-div-right {
+    margin-left:auto;
 }
 .footer-logo {
     width:160px;
@@ -477,8 +490,13 @@ footer {
     /* form end */
 
     /* footer */
+    .footer-bottom-container {
+        width:689px;
+        height:159px
+    }
     .footer-div-left{
         width:50%;
+        margin-right:0;
     }
     .footer-div-middle {
         width:50%;
@@ -488,6 +506,8 @@ footer {
         width:100%;
         display:flex;
         justify-content:space-between;
+        align-items:center;
+        margin-top:21px;
     }
     .godown {
         margin-bottom:0;
@@ -495,7 +515,6 @@ footer {
     .md-inline {
         display:inline;
         margin-left:auto;
-        /* align-self: */
     }
     .right {
         text-align:left;
@@ -512,6 +531,10 @@ footer {
     .footer-logo {
         width:96px;
         height:24px;
+        margin-bottom:50px;
+    }
+    .marge {
+        margin-right:20px;
     }
     .div-position {
         width:760px;
@@ -600,6 +623,7 @@ footer {
     /* form end */
 
     /* footer start */
+
     .inline {
         display:block;
     }
@@ -609,14 +633,15 @@ footer {
         margin-bottom:22px;
     }
 
-    .marge {
-        margin-right:20px;
+    .footer-bottom-container {
+        width:327px;
+        height:302px;
     }
-
     .footer-div-left{
         width:100%;
         text-align:center;
-        margin-top:30px;
+        margin-top: -15px;
+        margin-bottom: 21px
     }
 
     .footer-div-middle {
@@ -629,7 +654,7 @@ footer {
         width:100%;
         text-align:center;
         display:block;
-        margin-bottom:30px;
+        margin-top:40px;
     }
 
     .md-inline {
@@ -640,6 +665,7 @@ footer {
     }
     .footer-bottom {
         height:432px;
+        padding:0
     }
     .div-position {
         width:50%;
