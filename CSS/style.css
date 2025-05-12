@@ -145,7 +145,7 @@ nav {
 
 .contact-mobile-btn {
     border: none;
-    background-color: #014E56;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     transition: ease-in-out 0.2s;
     display: none;
@@ -1341,13 +1341,14 @@ footer {
 }
 
 .contact-mobile-btn{
-    position: fixed;
-    top: 52px;
+    position: fixed !important;
+
     font-size: 11px;
     height: 17px;
     flex-shrink: 0;
-    left: 324px;
+
     z-index: 52;
+    display: block;
 }
 
 .left-header{
@@ -1717,11 +1718,6 @@ footer {
         width: 327px;
     }
 
-    .contact-mobile-btn {
-        display: inline-block;
-        margin-left: auto;
-    }
-
     /* footer */
     .inline {
         display: block;
@@ -1787,4 +1783,4 @@ footer {
     }
 }
 
-@media (min-width: 1441px) {}
+/* @media (min-width: 1441px) {} */
