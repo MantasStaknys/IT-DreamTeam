@@ -1,3 +1,5 @@
+'use strict'
+
 let form = document.forms[0];
 
 let inputdede = document.getElementsByClassName('mememe')
