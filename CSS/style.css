@@ -1770,8 +1770,11 @@ footer {
     .footer-bottom {
         height: 432px;
         min-width: 376px;
-        width: 100vw;
+        width: 100%;
         padding: 0px 0 0 0
+    }
+    .footer-bottom-container {
+        margin-left:55px;
     }
 
     .div-position {
