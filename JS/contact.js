@@ -1,4 +1,6 @@
 'use strict';
+
+
 // forms
 let form = document.forms[0];
 
@@ -16,6 +18,7 @@ form.addEventListener('submit', e=>{
             e.style.borderColor = '#F67E7E';
             e.style.color = '#F67E7E';
             inputdede[er].style.display = 'block';
+
         }
         else{
             e.style.borderColor = '';
@@ -33,6 +36,20 @@ form.addEventListener('submit', e=>{
         alert("your message was sent to us! Tralaleilo Tralala");
         form.requestSubmit();
     }
+});
+
+Array.from(inputs).forEach((e, er) => {
+    e.addEventListener('blur', () => {
+        if (e.value.trim().length == 0) {
+            e.style.borderColor = '#F67E7E';
+            e.style.color = '#F67E7E';
+            inputdede[er].style.display = 'block';
+        } else {
+            e.style.borderColor = '';
+            e.style.color = '';
+            inputdede[er].style.display = 'none';
+        }
+    });
 });
 
 
