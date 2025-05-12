@@ -339,6 +339,8 @@ input:focus {
     font-weight: 700;
     line-height: normal;
     display: none;
+    position:absolute;
+    margin-top:-15px;
  }
 
  textarea {
