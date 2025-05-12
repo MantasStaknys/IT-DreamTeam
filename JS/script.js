@@ -14,7 +14,6 @@ main.style.transition = "0.2s ease-in-out"
 footer.style.transition = "0.2s ease-in-out"
 
 burgerBtn.style.position = "fixed";
-burgerBtn.style.top = "20px";
 
 
 document.addEventListener("click", e => {
@@ -24,7 +23,7 @@ document.addEventListener("click", e => {
         footer.style.filter = "brightness(100%)"
         brgMenu.style.right = "-255px";
         menuOn = false;
-        burgerBtn.style.position = "fixed";
+        burgerBtn.style.display = "block";
     }
 })
 
@@ -35,12 +34,14 @@ window.addEventListener("resize", () => {
         footer.style.filter = "brightness(100%)"
         brgMenu.style.right = "-255px";
         menuOn = false;
-        burgerBtn.style.position = "fixed";
+        burgerBtn.style.display = "block";
+
     }
 })
 
 burgerBtn.addEventListener("click", function() {
-    burgerBtn.style.position = "fixed";
+    burgerBtn.style.display = "none";
+
     header.style.filter = "brightness(50%)"
     main.style.filter = "brightness(50%)"
     footer.style.filter = "brightness(50%)"

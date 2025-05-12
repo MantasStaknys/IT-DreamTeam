@@ -196,7 +196,7 @@ nav {
     width: 255px;
     height: 100vh;
     position: fixed;
-    z-index: 3;
+    z-index: 101;
     background-color: #014E56;
     transition: 0.2s ease-in-out;
     right: -255px;
@@ -1342,12 +1342,12 @@ footer {
 
 .contact-mobile-btn{
     position: fixed !important;
-
-    font-size: 11px;
+    font-size: 18px;
     height: 17px;
     flex-shrink: 0;
-
-    z-index: 52;
+    left: 325px;
+    top: 50px;
+    z-index: 100;
     display: block;
 }
 

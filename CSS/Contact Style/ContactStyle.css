@@ -184,7 +184,7 @@ nav {
     width: 255px;
     height: 100vh;
     position: fixed;
-    z-index: 3;
+    z-index: 101;
     background-color: #014E56;
     transition: 0.2s ease-in-out;
     right: -255px;
