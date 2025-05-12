@@ -64,7 +64,7 @@ h3 {
     margin-right:50px;
 }
 .marge2 {
-    margin-right:20px
+    margin-right:12px
 }
 .link:hover {
     color:#F67E7E;
@@ -101,7 +101,8 @@ header {
     position: relative;
     flex-shrink: 1;
     background-color: #014E56;
-    height: 789px;
+    min-height: 789px;
+    height: 100%;
     width: 100vw;
     flex-direction: column;
     color: white;
@@ -114,12 +115,12 @@ nav {
     max-width: 1410px;
     width: 1310px;
     max-height: 50px;
-    flex-shrink: 0;
     margin: 0 auto;
     margin-top: 73px;
     margin-left: 165px;
     align-items: center;
     justify-content: flex-start;
+    position:relative;
 }
 .goleft {
     margin-left:114px;
@@ -130,7 +131,7 @@ nav {
 }
 
 .contact-btn {
-    margin-left: 577px;
+    margin-left: auto; /*i just wanna say, who changed this to not be an auto??? */
     width: 153px;
     height: 48px;
     background-color: #014E56;
@@ -266,7 +267,7 @@ nav {
 }
 
 .form {
-    margin-top: 120px;
+    margin-top: 104px;
     width:540px;
     height:420px;
 }
@@ -330,6 +331,17 @@ input:focus {
  input:focus .pleasework {
     border-color:#79C8C7
  }
+
+ .mememe{
+    margin: 0;
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    display: none;
+ }
  textarea {
     outline:none;
     background:none;
@@ -367,6 +379,7 @@ footer {
 .footer-logo {
     width:160px;
     height:40px;
+    margin-bottom:10px;
 }
 
 .opacity {
@@ -427,6 +440,10 @@ footer {
     header {
         height:1204px
     }
+    .header-logo {
+        height:32px;
+        width:128px;
+    }
     nav {
         width: 750px;
     }
@@ -447,7 +464,9 @@ footer {
     .godown1 {
         margin-bottom:-10px;
     }
-
+    .yes {
+        padding-top:24px;
+    }
     /* header end */
 
     /* form */
@@ -467,6 +486,8 @@ footer {
     }
     .footer-div-right {
         width:100%;
+        display:flex;
+        justify-content:space-between;
     }
     .godown {
         margin-bottom:0;
@@ -543,6 +564,7 @@ footer {
 
     nav {
         width: 327px;
+        margin-top:44px;
     }
     .contact-mobile-btn {
         display: inline-block;
@@ -557,6 +579,12 @@ footer {
     }
     .godown2 {
         margin-bottom:24px;
+    }
+    .h1 {
+        margin-top:13px;
+    }
+    .yes {
+        padding-top:7px;
     }
     /* header end */
 
@@ -588,6 +616,7 @@ footer {
     .footer-div-left{
         width:100%;
         text-align:center;
+        margin-top:30px;
     }
 
     .footer-div-middle {
@@ -599,6 +628,8 @@ footer {
     .footer-div-right {
         width:100%;
         text-align:center;
+        display:block;
+        margin-bottom:30px;
     }
 
     .md-inline {
@@ -636,7 +667,7 @@ footer {
     }
     .floatleft {
         width:327px;
-        margin-bottom:60px;
+        margin-bottom:40px;
     }
 
     h1 {
