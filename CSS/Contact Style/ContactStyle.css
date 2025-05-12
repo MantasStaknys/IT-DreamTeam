@@ -142,7 +142,7 @@ nav {
 
 .contact-mobile-btn {
     border: none;
-    background-color: #014E56;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     transition: ease-in-out 0.2s;
     display: none;
@@ -591,11 +591,18 @@ footer {
         width: 327px;
         margin-top:44px;
     }
-    .contact-mobile-btn {
-        display: inline-block;
-        margin-left: auto;
+    
+    .contact-mobile-btn{
+        position: fixed !important;
+        font-size: 18px;
+        height: 17px;
+        flex-shrink: 0;
+        left: 90.5%;
+        top: 50px;
+        z-index: 100;
+        display: block;
     }
-
+    
     .letters {
         margin-bottom:40px;
     }

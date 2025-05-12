@@ -89,7 +89,6 @@ window.addEventListener("resize", () => {
         brgMenu.style.right = "-255px";
         menuOn = false;
         burgerBtn.style.display = "block";
-
     }
 })
 

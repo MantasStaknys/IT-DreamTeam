@@ -95,8 +95,7 @@ nav {
 
 .contact-mobile-btn {
     border: none;
-    /* background-color: #014E56; */
-    background-color: rgba(100, 100, 100, 0);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     transition: ease-in-out 0.2s;
     display: none;
