@@ -64,7 +64,6 @@ let menuOn = false;
 
 
 header.style.transition = "0.2s ease-in-out"
-main.style.transition = "0.2s ease-in-out"
 footer.style.transition = "0.2s ease-in-out"
 
 burgerBtn.style.position = "fixed";
@@ -73,7 +72,6 @@ burgerBtn.style.position = "fixed";
 document.addEventListener("click", e => {
     if (e.target.id != "brg-menu" && menuOn && e.target.id != "mob") {
         header.style.filter = "brightness(100%)"
-        main.style.filter = "brightness(100%)"
         footer.style.filter = "brightness(100%)"
         brgMenu.style.right = "-255px";
         menuOn = false;
@@ -84,7 +82,6 @@ document.addEventListener("click", e => {
 window.addEventListener("resize", () => {
     if (window.innerWidth > 768) {
         header.style.filter = "brightness(100%)"
-        main.style.filter = "brightness(100%)"
         footer.style.filter = "brightness(100%)"
         brgMenu.style.right = "-255px";
         menuOn = false;
@@ -96,7 +93,6 @@ burgerBtn.addEventListener("click", function() {
     burgerBtn.style.display = "none";
 
     header.style.filter = "brightness(50%)"
-    main.style.filter = "brightness(50%)"
     footer.style.filter = "brightness(50%)"
     brgMenu.style.right = "0px";
     menuOn = true;

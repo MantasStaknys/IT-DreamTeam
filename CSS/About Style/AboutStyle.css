@@ -98,6 +98,7 @@ nav {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     transition: ease-in-out 0.2s;
+    margin-top: 48px;
     display: none;
 }
 
@@ -1138,7 +1139,6 @@ footer {
     }
 
     .svgdecor {
-        top: -100px;
         z-index: -2;
     }
 
@@ -1149,7 +1149,7 @@ footer {
     .contact-mobile-btn {
         display: inline-block;
         position: fixed;
-        margin-left: 300px;
+        margin-left: 360px;
         z-index: 3;
         background-color: 0;
     }
